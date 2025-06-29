@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "mini.local",
+    "children" : [ {
+      "name" : "84921@mini.local.main(1)",
+      "children" : [ {
+        "name" : "authorization()",
+        "uid" : "739757a72806f5c7",
+        "parentUid" : "f5af9f5cc214296db34f2e1c3eeef886",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751231751962,
+          "stop" : 1751231931426,
+          "duration" : 179464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5af9f5cc214296db34f2e1c3eeef886"
+    } ],
+    "uid" : "e8db958fadb984d65d97521d2a3f1fce"
+  } ]
+}

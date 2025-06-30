@@ -1,5 +1,558 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/textViewName\" and contains(@text, \"Тест4\")]",
+      "children" : [ {
+        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
+        "uid" : "36435ab265343996",
+        "parentUid" : "a623adbe69b4864555a52d458157cf45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751296166680,
+          "stop" : 1751296357119,
+          "duration" : 190439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
+        "uid" : "b362df4338b59db6",
+        "parentUid" : "a623adbe69b4864555a52d458157cf45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751296357133,
+          "stop" : 1751296539624,
+          "duration" : 182491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "exitFromQuestionnaire()",
+        "uid" : "b8c00b44e0f92c01",
+        "parentUid" : "a623adbe69b4864555a52d458157cf45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751296539629,
+          "stop" : 1751296711658,
+          "duration" : 172029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goBackToSymptomsSelectionPage()",
+        "uid" : "cedd6da68d6f8136",
+        "parentUid" : "a623adbe69b4864555a52d458157cf45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751296711669,
+          "stop" : 1751296894148,
+          "duration" : 182479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
+        "uid" : "9a972b012db6646a",
+        "parentUid" : "a623adbe69b4864555a52d458157cf45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751296894162,
+          "stop" : 1751297077486,
+          "duration" : 183324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a623adbe69b4864555a52d458157cf45"
+    }, {
+      "name" : "Element not found: By.id: ru.sogaz.app.stage:id/input_login",
+      "children" : [ {
+        "name" : "recoveryPass()",
+        "uid" : "e95424ace8fbf284",
+        "parentUid" : "8ed0f57adbab912849e796ff2897327d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751298157944,
+          "stop" : 1751298351234,
+          "duration" : 193290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ed0f57adbab912849e796ff2897327d"
+    }, {
+      "name" : "Element not found: By.xpath: //android.widget.EditText[@resource-id=\"ru.sogaz.app.stage:id/input_document\"]",
+      "children" : [ {
+        "name" : "delete()",
+        "uid" : "2fe2d3c997c3ec95",
+        "parentUid" : "c35afb5fd7a32abda8541465285431f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751298351243,
+          "stop" : 1751298457570,
+          "duration" : 106327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceCV()",
+        "uid" : "37226e7452a1be0",
+        "parentUid" : "c35afb5fd7a32abda8541465285431f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751298457588,
+          "stop" : 1751298568860,
+          "duration" : 111272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c35afb5fd7a32abda8541465285431f5"
+    }, {
+      "name" : "Element not found: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1]",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "955792a040b89af5",
+        "parentUid" : "79554d96313739fd154afb0f1876b03a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751299801917,
+          "stop" : 1751299956493,
+          "duration" : 154576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithAudio()",
+        "uid" : "4ee6a27f928143f1",
+        "parentUid" : "79554d96313739fd154afb0f1876b03a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751299956502,
+          "stop" : 1751300102122,
+          "duration" : 145620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithVideo()",
+        "uid" : "20e9174a9c711cab",
+        "parentUid" : "79554d96313739fd154afb0f1876b03a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751300102136,
+          "stop" : 1751300252625,
+          "duration" : 150489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithChat()",
+        "uid" : "8943aee804a5bbdd",
+        "parentUid" : "79554d96313739fd154afb0f1876b03a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751300252643,
+          "stop" : 1751300394676,
+          "duration" : 142033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "20de88ff9ce516aa",
+        "parentUid" : "79554d96313739fd154afb0f1876b03a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751300394703,
+          "stop" : 1751300544639,
+          "duration" : 149936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithVideo()",
+        "uid" : "b1c16a709d0b6a91",
+        "parentUid" : "79554d96313739fd154afb0f1876b03a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751300544649,
+          "stop" : 1751300691838,
+          "duration" : 147189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithChat()",
+        "uid" : "7fb2f4fcbb01351a",
+        "parentUid" : "79554d96313739fd154afb0f1876b03a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751300936495,
+          "stop" : 1751301084033,
+          "duration" : 147538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingAnotherDoctorOpinion()",
+        "uid" : "123147c8b4753f2c",
+        "parentUid" : "79554d96313739fd154afb0f1876b03a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751301084047,
+          "stop" : 1751301234544,
+          "duration" : 150497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79554d96313739fd154afb0f1876b03a"
+    }, {
+      "name" : "Element not found: By.xpath: (//android.widget.LinearLayout[@resource-id=\"ru.sogaz.app.stage:id/title\"])[4]",
+      "children" : [ {
+        "name" : "sectionsAndModalsTests()",
+        "uid" : "9d0abc829841fcf2",
+        "parentUid" : "79a4cd8cdb00dbc3f6a8a681ed6a04f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751301597955,
+          "stop" : 1751301875893,
+          "duration" : 277938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79a4cd8cdb00dbc3f6a8a681ed6a04f2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Ошибка при OCR-клике: OCR не нашёл 'Робб Флинн'' на экране.",
+      "children" : [ {
+        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
+        "uid" : "957e467dacf9e236",
+        "parentUid" : "c40054724a04c830b36e22d50c80381b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751297077506,
+          "stop" : 1751297249423,
+          "duration" : 171917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c40054724a04c830b36e22d50c80381b"
+    }, {
+      "name" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "children" : [ {
+        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
+        "uid" : "fd0e4b377a8fb466",
+        "parentUid" : "4cab558770ae2aff8ca7f54b2d6ef9c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751297249438,
+          "stop" : 1751297397171,
+          "duration" : 147733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
+        "uid" : "a3e08ebc924c9524",
+        "parentUid" : "4cab558770ae2aff8ca7f54b2d6ef9c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751297481231,
+          "stop" : 1751297627111,
+          "duration" : 145880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cab558770ae2aff8ca7f54b2d6ef9c9"
+    }, {
+      "name" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: e692e2a6-d949-40e3-8cbf-b34ca50f7a2c",
+      "children" : [ {
+        "name" : "navigatingThroughQuestionnaireScreens()",
+        "uid" : "2dee5746139df8e4",
+        "parentUid" : "eedabd183990f067fc7a32a99bdbf339",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751297397192,
+          "stop" : 1751297481224,
+          "duration" : 84032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eedabd183990f067fc7a32a99bdbf339"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"2/6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "registration()",
+        "uid" : "bf1fdf19bf937c8b",
+        "parentUid" : "eb0edbb92b1dc89f430c51ebbe8ca79b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751298568879,
+          "stop" : 1751298617609,
+          "duration" : 48730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ednaChatTests()",
+        "uid" : "6d572723f16c909b",
+        "parentUid" : "eb0edbb92b1dc89f430c51ebbe8ca79b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751303093127,
+          "stop" : 1751303145439,
+          "duration" : 52312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb0edbb92b1dc89f430c51ebbe8ca79b"
+    }, {
+      "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "children" : [ {
+        "name" : "medicineTests()",
+        "uid" : "32e4b700901e4532",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751298617686,
+          "stop" : 1751298751618,
+          "duration" : 133932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "diseaseTests()",
+        "uid" : "d8ea8d422a3d74f7",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751298751634,
+          "stop" : 1751298888491,
+          "duration" : 136857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "instrumentalDiagnosticsTests()",
+        "uid" : "e86ead0c064f8500",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751298888611,
+          "stop" : 1751299024708,
+          "duration" : 136097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allergyTests()",
+        "uid" : "4b2c1f2cb2144d29",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751299024749,
+          "stop" : 1751299166232,
+          "duration" : 141483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "vaccinationTests()",
+        "uid" : "15f316745e983d3",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751299253264,
+          "stop" : 1751299389545,
+          "duration" : 136281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "analyzesTests()",
+        "uid" : "760be6cfad901657",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751299389578,
+          "stop" : 1751299528579,
+          "duration" : 139001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "injuryTests()",
+        "uid" : "f55123bb514f2d23",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751299528649,
+          "stop" : 1751299665564,
+          "duration" : 136915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doctorConclusionTests()",
+        "uid" : "979d4bac688442f2",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751299665582,
+          "stop" : 1751299801861,
+          "duration" : 136279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
+    }, {
+      "name" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 655505db-6478-45df-ba5c-a1e647cc888a",
+      "children" : [ {
+        "name" : "operationTests()",
+        "uid" : "684648ce59fff439",
+        "parentUid" : "f5f8f5667f311c6b4a2546e72773cc13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751299166265,
+          "stop" : 1751299253037,
+          "duration" : 86772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5f8f5667f311c6b4a2546e72773cc13"
+    }, {
+      "name" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f2ba639d-01c3-4136-b7b9-667511a0142a",
+      "children" : [ {
+        "name" : "addingReadmissionWithChat()",
+        "uid" : "bb5b230545538e8c",
+        "parentUid" : "046ee227ae520516837525574d3650cd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751300691996,
+          "stop" : 1751300774621,
+          "duration" : 82625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "046ee227ae520516837525574d3650cd"
+    }, {
+      "name" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a2ad622a-09be-4d1b-9b9f-794a9c7bb279",
+      "children" : [ {
+        "name" : "addingOnlineConsultationWithAudio()",
+        "uid" : "c57fd0d0d961946b",
+        "parentUid" : "c6c255c1069142b533e773d9ae5e89f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751300774635,
+          "stop" : 1751300855439,
+          "duration" : 80804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c6c255c1069142b533e773d9ae5e89f9"
+    }, {
+      "name" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:4d4:7b9d:6408:1687%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 15000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 15000, viewportRect: {height: 2083, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 6eb4e125-67b3-45b1-80db-7308294091b9",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzesWithAudio()",
+        "uid" : "f73278609d9a1023",
+        "parentUid" : "419d2fc159ee70d868f6fdbb4dc723f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751300855448,
+          "stop" : 1751300936489,
+          "duration" : 81041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "419d2fc159ee70d868f6fdbb4dc723f7"
+    }, {
+      "name" : "OCR is disabled due to stability issues. Cannot click: Робб Флинн'",
+      "children" : [ {
+        "name" : "register()",
+        "uid" : "27b4ff185b8ff60e",
+        "parentUid" : "dcb07a4a52c6e04b44869ccec2cf7b29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751301234562,
+          "stop" : 1751301395682,
+          "duration" : 161120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dcb07a4a52c6e04b44869ccec2cf7b29"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/clinics_list (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "geolocation()",
+        "uid" : "e5af0b9207c1e9e5",
+        "parentUid" : "2405ce7ad2b1c49deb36d606662923bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751301395694,
+          "stop" : 1751301597934,
+          "duration" : 202240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2405ce7ad2b1c49deb36d606662923bf"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

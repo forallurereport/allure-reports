@@ -1,0 +1,59 @@
+{
+  "uid" : "c205f9e760aff1d",
+  "name" : "checkup18()",
+  "fullName" : "MobileTesting.tests.CheckupTest.checkup18",
+  "historyId" : "60ad711f96ae91af8fa840af672238e2",
+  "time" : {
+    "start" : 1751294688896,
+    "stop" : 1751294688896,
+    "duration" : 0
+  },
+  "description" : "Checkup 18 y.o. user",
+  "descriptionHtml" : "<p>Checkup 18 y.o. user</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "60491@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkup18"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c205f9e760aff1d.json",
+  "parameterValues" : [ ]
+}

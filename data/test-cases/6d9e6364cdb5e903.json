@@ -1,0 +1,63 @@
+{
+  "uid" : "6d9e6364cdb5e903",
+  "name" : "checkup59()",
+  "fullName" : "MobileTesting.tests.CheckupTest.checkup59",
+  "historyId" : "d0e183c5aea0d02949fbb7f7c8df728f",
+  "time" : {
+    "start" : 1751294688904,
+    "stop" : 1751294688904,
+    "duration" : 0
+  },
+  "description" : "Checkup 59 y.o. user",
+  "descriptionHtml" : "<p>Checkup 59 y.o. user</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Daniil Tarasenko"
+  }, {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "60491@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkup59"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.CheckupTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Daniil Tarasenko",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d9e6364cdb5e903.json",
+  "parameterValues" : [ ]
+}

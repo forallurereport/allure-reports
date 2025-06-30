@@ -1,11 +1,581 @@
 [ {
-  "uid" : "739757a72806f5c7",
-  "name" : "authorization()",
+  "uid" : "4907932e76c9e8c",
+  "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
   "time" : {
-    "start" : 1751231751962,
-    "stop" : 1751231931426,
-    "duration" : 179464
+    "start" : 1751300929634,
+    "stop" : 1751301382957,
+    "duration" : 453323
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1d7fad550c9133e1",
+  "name" : "cancelReg()",
+  "time" : {
+    "start" : 1751294688891,
+    "stop" : 1751294688891,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1682ccdb1a1665a",
+  "name" : "checkup41()",
+  "time" : {
+    "start" : 1751294688900,
+    "stop" : 1751294688900,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9ab146b0b3e53571",
+  "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+  "time" : {
+    "start" : 1751292541406,
+    "stop" : 1751292541406,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "af107cc3972002f1",
+  "name" : "addingDecipheringAnalyzesWithVideo()",
+  "time" : {
+    "start" : 1751307164948,
+    "stop" : 1751307401104,
+    "duration" : 236156
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9768128e886bf806",
+  "name" : "checkup51()",
+  "time" : {
+    "start" : 1751294688902,
+    "stop" : 1751294688902,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c205f9e760aff1d",
+  "name" : "checkup18()",
+  "time" : {
+    "start" : 1751294688896,
+    "stop" : 1751294688896,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a42522796581d81b",
+  "name" : "instrumentalDiagnosticsTests()",
+  "time" : {
+    "start" : 1751303997086,
+    "stop" : 1751304317677,
+    "duration" : 320591
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ae53e5a88970e7b",
+  "name" : "vaccinationTests()",
+  "time" : {
+    "start" : 1751304942139,
+    "stop" : 1751305228755,
+    "duration" : 286616
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e7f78e7538f281f",
+  "name" : "specializationDeterminedForOnlineConsultation()",
+  "time" : {
+    "start" : 1751302300445,
+    "stop" : 1751302667131,
+    "duration" : 366686
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2ce9694b47358607",
+  "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
+  "time" : {
+    "start" : 1751298600856,
+    "stop" : 1751299059223,
+    "duration" : 458367
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "702932dbf5a905c3",
+  "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
+  "time" : {
+    "start" : 1751298200491,
+    "stop" : 1751298600825,
+    "duration" : 400334
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "414593e11c2bd87",
+  "name" : "exitFromQuestionnaire()",
+  "time" : {
+    "start" : 1751299059264,
+    "stop" : 1751299568724,
+    "duration" : 509460
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b504231e0028290c",
+  "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
+  "time" : {
+    "start" : 1751292841681,
+    "stop" : 1751292841681,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6d9e6364cdb5e903",
+  "name" : "checkup59()",
+  "time" : {
+    "start" : 1751294688904,
+    "stop" : 1751294688904,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2969a86d659e31af",
+  "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
+  "time" : {
+    "start" : 1751300033552,
+    "stop" : 1751300477611,
+    "duration" : 444059
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ffff4bdcca788a4d",
+  "name" : "diseaseTests()",
+  "time" : {
+    "start" : 1751303690020,
+    "stop" : 1751303997075,
+    "duration" : 307055
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "11bcab4f0c8e2dcf",
+  "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
+  "time" : {
+    "start" : 1751301838608,
+    "stop" : 1751302300429,
+    "duration" : 461821
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b141d6baa5fb451",
+  "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
+  "time" : {
+    "start" : 1751297771269,
+    "stop" : 1751298200456,
+    "duration" : 429187
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9e32cf83e886d88",
+  "name" : "register()",
+  "time" : {
+    "start" : 1751308900659,
+    "stop" : 1751309333328,
+    "duration" : 432669
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b1ff2eb75341849",
+  "name" : "addingReadmissionWithVideo()",
+  "time" : {
+    "start" : 1751307401115,
+    "stop" : 1751307619769,
+    "duration" : 218654
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fa1d1263d256e2e",
+  "name" : "addingDecipheringAnalyzes()",
+  "time" : {
+    "start" : 1751306228330,
+    "stop" : 1751306465894,
+    "duration" : 237564
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "605bb44945d3ec5c",
+  "name" : "allergyTests()",
+  "time" : {
+    "start" : 1751304317687,
+    "stop" : 1751304629426,
+    "duration" : 311739
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "270e1b14330170b2",
+  "name" : "checkup40()",
+  "time" : {
+    "start" : 1751294688899,
+    "stop" : 1751294688899,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3438505537bfd63b",
+  "name" : "operationTests()",
+  "time" : {
+    "start" : 1751304629437,
+    "stop" : 1751304942128,
+    "duration" : 312691
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "44b60f47ae66a271",
+  "name" : "medicineTests()",
+  "time" : {
+    "start" : 1751303361352,
+    "stop" : 1751303689984,
+    "duration" : 328632
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f8b3d3edbcd7c02",
+  "name" : "addingAnotherDoctorOpinion()",
+  "time" : {
+    "start" : 1751308672834,
+    "stop" : 1751308900621,
+    "duration" : 227787
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5557bb5f3479669a",
+  "name" : "ednaChatTests()",
+  "time" : {
+    "start" : 1751309997993,
+    "stop" : 1751310101380,
+    "duration" : 103387
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4b1e50c72d6de56f",
+  "name" : "addingOnlineConsultationWithVideo()",
+  "time" : {
+    "start" : 1751306706888,
+    "stop" : 1751306945607,
+    "duration" : 238719
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfe0919603e02264",
+  "name" : "sectionsAndModalsTests()",
+  "time" : {
+    "start" : 1751291550011,
+    "stop" : 1751291550011,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9a6ab75513ce36ab",
+  "name" : "navigatingThroughQuestionnaireScreens()",
+  "time" : {
+    "start" : 1751301382967,
+    "stop" : 1751301838597,
+    "duration" : 455630
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "881ac2eac206269d",
+  "name" : "delete()",
+  "time" : {
+    "start" : 1751293512750,
+    "stop" : 1751293874941,
+    "duration" : 362191
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb97ba60475221fc",
+  "name" : "registration()",
+  "time" : {
+    "start" : 1751293118067,
+    "stop" : 1751293512743,
+    "duration" : 394676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb0c863317ab9011",
+  "name" : "doctorConclusionTests()",
+  "time" : {
+    "start" : 1751305920220,
+    "stop" : 1751306228301,
+    "duration" : 308081
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "52e4e84b94f7fcc3",
+  "name" : "addInsuranceAV()",
+  "time" : {
+    "start" : 1751293981774,
+    "stop" : 1751293981774,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2ce32bdf7b0b64b",
+  "name" : "geolocation()",
+  "time" : {
+    "start" : 1751309333356,
+    "stop" : 1751309660583,
+    "duration" : 327227
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73d5a2959c2c644",
+  "name" : "questionnaireOpensForAdultPatient()",
+  "time" : {
+    "start" : 1751297418075,
+    "stop" : 1751297771258,
+    "duration" : 353183
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a28d69749d57aede",
+  "name" : "addingReadmissionWithChat()",
+  "time" : {
+    "start" : 1751307619783,
+    "stop" : 1751307839840,
+    "duration" : 220057
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3db92393f409b60",
+  "name" : "checkup28()",
+  "time" : {
+    "start" : 1751294688898,
+    "stop" : 1751294688898,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "73f250eb49675f4f",
+  "name" : "addingOnlineConsultationWithChat()",
+  "time" : {
+    "start" : 1751308431811,
+    "stop" : 1751308672820,
+    "duration" : 241009
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbe7b55c9143ed22",
+  "name" : "authorization()",
+  "time" : {
+    "start" : 1751291132061,
+    "stop" : 1751291262208,
+    "duration" : 130147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2588d38a4351a0bc",
+  "name" : "addingDecipheringAnalyzesWithChat()",
+  "time" : {
+    "start" : 1751306945620,
+    "stop" : 1751307164921,
+    "duration" : 219301
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2bc0c5161c11d9c",
+  "name" : "analyzesTests()",
+  "time" : {
+    "start" : 1751305228768,
+    "stop" : 1751305543258,
+    "duration" : 314490
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "559a91b3f6ec2a72",
+  "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
+  "time" : {
+    "start" : 1751300477622,
+    "stop" : 1751300929622,
+    "duration" : 452000
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f18a65b6b7b2c98b",
+  "name" : "sliderNavigationTests()",
+  "time" : {
+    "start" : 1751291550010,
+    "stop" : 1751291550010,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e18bfaaaebd4fff2",
+  "name" : "goBackToSymptomsSelectionPage()",
+  "time" : {
+    "start" : 1751299568761,
+    "stop" : 1751300033529,
+    "duration" : 464768
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "389360338de52bb3",
+  "name" : "addingOnlineConsultationWithAudio()",
+  "time" : {
+    "start" : 1751307839862,
+    "stop" : 1751308188747,
+    "duration" : 348885
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e625c6fb02d33607",
+  "name" : "addingDecipheringAnalyzesWithAudio()",
+  "time" : {
+    "start" : 1751308188762,
+    "stop" : 1751308431796,
+    "duration" : 243034
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7ee0e38ce26e4b7",
+  "name" : "conclusion()",
+  "time" : {
+    "start" : 1751294134877,
+    "stop" : 1751294134878,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8af3257a8ebc845d",
+  "name" : "checkup27()",
+  "time" : {
+    "start" : 1751294688897,
+    "stop" : 1751294688897,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7633c7006f925dad",
+  "name" : "addInsuranceAM()",
+  "time" : {
+    "start" : 1751293981773,
+    "stop" : 1751293981773,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "badb43d4ebfbeb6c",
+  "name" : "injuryTests()",
+  "time" : {
+    "start" : 1751305543271,
+    "stop" : 1751305920210,
+    "duration" : 376939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32d431012b2ce8e9",
+  "name" : "addingReadmissionWithAudio()",
+  "time" : {
+    "start" : 1751306465911,
+    "stop" : 1751306706871,
+    "duration" : 240960
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9113c9e022e01746",
+  "name" : "recoveryPass()",
+  "time" : {
+    "start" : 1751303210842,
+    "stop" : 1751303311878,
+    "duration" : 101036
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a17af86ddc8d40d7",
+  "name" : "changePassword()",
+  "time" : {
+    "start" : 1751302667172,
+    "stop" : 1751303210832,
+    "duration" : 543660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16698b72c0f113ef",
+  "name" : "onboarding()",
+  "time" : {
+    "start" : 1751309660593,
+    "stop" : 1751309997958,
+    "duration" : 337365
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9066e0a0e2730196",
+  "name" : "checkup50()",
+  "time" : {
+    "start" : 1751294688901,
+    "stop" : 1751294688901,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "35e6cd5a41463454",
+  "name" : "addInsuranceCV()",
+  "time" : {
+    "start" : 1751303311891,
+    "stop" : 1751303361336,
+    "duration" : 49445
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

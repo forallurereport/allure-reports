@@ -1,0 +1,79 @@
+{
+  "uid" : "cd4a69e332062bc6",
+  "name" : "addInsuranceAM()",
+  "fullName" : "MobileTesting.tests.AccountTest.addInsuranceAM",
+  "historyId" : "d839064510354c59ad3042a75e06a20e",
+  "time" : {
+    "start" : 1751384191082,
+    "stop" : 1751384191082,
+    "duration" : 0
+  },
+  "description" : "Добавление обязательного медицинского страхования для взрослого",
+  "descriptionHtml" : "<p>Добавление обязательного медицинского страхования для взрослого</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void MobileTesting.tests.AccountTest.addInsuranceAM() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "83923@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addInsuranceAM"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.AccountTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7633c7006f925dad",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAM() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1751293981773,
+          "stop" : 1751293981773,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cd4a69e332062bc6.json",
+  "parameterValues" : [ ]
+}

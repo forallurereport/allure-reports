@@ -1,0 +1,79 @@
+{
+  "uid" : "bcad60b7a377a8c8",
+  "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+  "fullName" : "MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline",
+  "historyId" : "2ebd030ead2202f2de6f1bad7e5cfed6",
+  "time" : {
+    "start" : 1751381877472,
+    "stop" : 1751381877472,
+    "duration" : 0
+  },
+  "description" : "Проверка, что опросник не открывается для пациентов-детей при регистрации в клиники",
+  "descriptionHtml" : "<p>Проверка, что опросник не открывается для пациентов-детей при регистрации в клиники</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "83923@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "questionnaireDoesNotOpenForChildPatientOffline"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9ab146b0b3e53571",
+        "status" : "skipped",
+        "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1751292541406,
+          "stop" : 1751292541406,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bcad60b7a377a8c8.json",
+  "parameterValues" : [ ]
+}

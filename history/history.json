@@ -1,14 +1,23 @@
 {
   "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f2256e7166054119",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
+      "time" : {
+        "start" : 1751393699138,
+        "stop" : 1751394003720,
+        "duration" : 304582
+      }
+    }, {
       "uid" : "605bb44945d3ec5c",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
@@ -23,12 +32,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "abf40d45d3c3c3da",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925290,
+        "stop" : 1751384925290,
+        "duration" : 0
+      }
+    }, {
       "uid" : "1d7fad550c9133e1",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() throws java.lang.InterruptedException is @Disabled",
@@ -43,12 +61,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7e5da6bcf6710b3b",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925296,
+        "stop" : 1751384925296,
+        "duration" : 0
+      }
+    }, {
       "uid" : "c205f9e760aff1d",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
@@ -62,13 +89,22 @@
   "877d2ccb612b12db0f1a13f2fbef2991" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8f1db553a924f627",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751391100116,
+        "stop" : 1751391543109,
+        "duration" : 442993
+      }
+    }, {
       "uid" : "4907932e76c9e8c",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -83,12 +119,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "128990848ae00a22",
+      "status" : "skipped",
+      "statusDetails" : "@DisabledIf(\"isIOS\") evaluated to true",
+      "time" : {
+        "start" : 1751378282544,
+        "stop" : 1751378282544,
+        "duration" : 0
+      }
+    }, {
       "uid" : "dfe0919603e02264",
       "status" : "skipped",
       "statusDetails" : "@DisabledIf(\"isIOS\") evaluated to true",
@@ -101,14 +146,23 @@
   },
   "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "93ed1db86a394646",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
+      "time" : {
+        "start" : 1751393080831,
+        "stop" : 1751393389094,
+        "duration" : 308263
+      }
+    }, {
       "uid" : "ffff4bdcca788a4d",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
@@ -123,12 +177,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "51d2d26f4c02e8a1",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925300,
+        "stop" : 1751384925300,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b3db92393f409b60",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
@@ -141,14 +204,23 @@
   },
   "f67134439d58a9cfb24d3a9c728841eb" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "384a94a4a2828c22",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
+      "time" : {
+        "start" : 1751394298754,
+        "stop" : 1751394590883,
+        "duration" : 292129
+      }
+    }, {
       "uid" : "6ae53e5a88970e7b",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
@@ -161,14 +233,23 @@
   },
   "f806401a4fe5145ec0e282970490ec1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "aef7c309a7a81af4",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751395920475,
+        "stop" : 1751396161883,
+        "duration" : 241408
+      }
+    }, {
       "uid" : "4b1e50c72d6de56f",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -182,13 +263,22 @@
   "43654123208c6e7a3c356c0133360b1a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "fbad2f2a4fd34b3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751395351816,
+        "stop" : 1751395441251,
+        "duration" : 89435
+      }
+    }, {
       "uid" : "cb97ba60475221fc",
       "status" : "passed",
       "time" : {
@@ -200,14 +290,23 @@
   },
   "18ec24184790bbd2571b088796ff69b0" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ab69de20417c830",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751396865533,
+        "stop" : 1751397086296,
+        "duration" : 220763
+      }
+    }, {
       "uid" : "a28d69749d57aede",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -221,13 +320,22 @@
   "75d4b60cd5c57d88e7622405baf8befb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2826b5a64a53e4b9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"2 / 6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751399296201,
+        "stop" : 1751399346105,
+        "duration" : 49904
+      }
+    }, {
       "uid" : "5557bb5f3479669a",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
@@ -241,13 +349,22 @@
   "d7a09ac00e6080db4671a69b7f8f8d8b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "af17f1c06677b880",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751390673248,
+        "stop" : 1751391100105,
+        "duration" : 426857
+      }
+    }, {
       "uid" : "559a91b3f6ec2a72",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -261,13 +378,22 @@
   "3456ff090bb6eaaf81ffe6abf3d31071" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "37cb9f568f5678a5",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Робб Флинн'",
+      "time" : {
+        "start" : 1751398181585,
+        "stop" : 1751398610327,
+        "duration" : 428742
+      }
+    }, {
       "uid" : "9e32cf83e886d88",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Робб Флинн'",
@@ -280,14 +406,23 @@
   },
   "26bac62248ca4bd68ebe8c33827f49f7" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b96d90a988a56154",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
+      "time" : {
+        "start" : 1751393389104,
+        "stop" : 1751393699125,
+        "duration" : 310021
+      }
+    }, {
       "uid" : "a42522796581d81b",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
@@ -301,13 +436,22 @@
   "31fef632ec4ee88d6e90966532bf9b1b" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "62094e583e0e11c8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751395181047,
+        "stop" : 1751395274878,
+        "duration" : 93831
+      }
+    }, {
       "uid" : "9113c9e022e01746",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther[8]/XCUIElementTypeTextField",
@@ -323,11 +467,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a697cb6ae9e2de45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751376108032,
+        "stop" : 1751376468622,
+        "duration" : 360590
+      }
+    }, {
       "uid" : "badb43d4ebfbeb6c",
       "status" : "passed",
       "time" : {
@@ -340,13 +492,22 @@
   "b76a326bd49d768ca63850901cbb024d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f33a101bd8c1ca95",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Тест4 ",
+      "time" : {
+        "start" : 1751398610367,
+        "stop" : 1751398935300,
+        "duration" : 324933
+      }
+    }, {
       "uid" : "2ce32bdf7b0b64b",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Тест4 Тест4",
@@ -359,14 +520,23 @@
   },
   "5e94fe62b62986319f169be63613673" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "67d4eaa0ac01018",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
+      "time" : {
+        "start" : 1751394888026,
+        "stop" : 1751395181027,
+        "duration" : 293001
+      }
+    }, {
       "uid" : "fb0c863317ab9011",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
@@ -380,13 +550,22 @@
   "171f22ce60306c9f366a7b5a1d834ae4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cdb211270f3ec8dd",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751388892084,
+        "stop" : 1751389311709,
+        "duration" : 419625
+      }
+    }, {
       "uid" : "2ce9694b47358607",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -401,12 +580,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cd4a69e332062bc6",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAM() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384191082,
+        "stop" : 1751384191082,
+        "duration" : 0
+      }
+    }, {
       "uid" : "7633c7006f925dad",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAM() throws java.lang.InterruptedException is @Disabled",
@@ -422,11 +610,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ce80f5ba711194d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751383611367,
+        "stop" : 1751384098511,
+        "duration" : 487144
+      }
+    }, {
       "uid" : "a17af86ddc8d40d7",
       "status" : "passed",
       "time" : {
@@ -441,11 +637,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "5701924c858a0d86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751377066860,
+        "stop" : 1751377547214,
+        "duration" : 480354
+      }
+    }, {
       "uid" : "dbe7b55c9143ed22",
       "status" : "passed",
       "time" : {
@@ -467,12 +671,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1f173977f5db01dc",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925303,
+        "stop" : 1751384925303,
+        "duration" : 0
+      }
+    }, {
       "uid" : "9066e0a0e2730196",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
@@ -485,14 +698,23 @@
   },
   "52cb1388c27fcb104d3bf655780ca1b1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c5cf3ec5b164a99e",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751395681251,
+        "stop" : 1751395920462,
+        "duration" : 239211
+      }
+    }, {
       "uid" : "32d431012b2ce8e9",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -505,14 +727,23 @@
   },
   "8c176700601bd05c1972864a7d482183" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ce49a4287a41d96d",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
+      "time" : {
+        "start" : 1751394003888,
+        "stop" : 1751394298740,
+        "duration" : 294852
+      }
+    }, {
       "uid" : "3438505537bfd63b",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
@@ -525,14 +756,23 @@
   },
   "fe81c9de9a3b137531503ead196a3e40" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5638b698c7ea1c7f",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751397458884,
+        "stop" : 1751397695997,
+        "duration" : 237113
+      }
+    }, {
       "uid" : "e625c6fb02d33607",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -547,12 +787,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "97bfd1833a3d0bae",
+      "status" : "skipped",
+      "statusDetails" : "@DisabledIf(\"isIOS\") evaluated to true",
+      "time" : {
+        "start" : 1751378282543,
+        "stop" : 1751378282543,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f18a65b6b7b2c98b",
       "status" : "skipped",
       "statusDetails" : "@DisabledIf(\"isIOS\") evaluated to true",
@@ -567,12 +816,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bcad60b7a377a8c8",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751381877472,
+        "stop" : 1751381877472,
+        "duration" : 0
+      }
+    }, {
       "uid" : "9ab146b0b3e53571",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
@@ -587,12 +845,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "37c061a6bb4be2b8",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751382658781,
+        "stop" : 1751382658781,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b504231e0028290c",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
@@ -606,13 +873,22 @@
   "3b75c42caae7b8bda70cb5b50052d65" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cfcfd1641b77ee9c",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751388055989,
+        "stop" : 1751388506330,
+        "duration" : 450341
+      }
+    }, {
       "uid" : "8b141d6baa5fb451",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -625,14 +901,23 @@
   },
   "2898282340b486d23243848ed9820086" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d47547bfc19839b2",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751397941292,
+        "stop" : 1751398181563,
+        "duration" : 240271
+      }
+    }, {
       "uid" : "9f8b3d3edbcd7c02",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -646,13 +931,22 @@
   "ba6a924fce26128c6ee2510e73e8a21d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1659c10e9fa2b503",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Робб ",
+      "time" : {
+        "start" : 1751388506344,
+        "stop" : 1751388892072,
+        "duration" : 385728
+      }
+    }, {
       "uid" : "702932dbf5a905c3",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Робб ",
@@ -667,12 +961,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9a4d9fb6a2c18b02",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAV() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384191083,
+        "stop" : 1751384191083,
+        "duration" : 0
+      }
+    }, {
       "uid" : "52e4e84b94f7fcc3",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAV() throws java.lang.InterruptedException is @Disabled",
@@ -686,13 +989,22 @@
   "1861d2113478472056474c95422ed11b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "717269a4b6e55b9",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751389756976,
+        "stop" : 1751390222441,
+        "duration" : 465465
+      }
+    }, {
       "uid" : "e18bfaaaebd4fff2",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -705,14 +1017,23 @@
   },
   "66c70b389e0fbbe16e554a89f0fb1684" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f045ca7caddafab8",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
+      "time" : {
+        "start" : 1751394590910,
+        "stop" : 1751394887992,
+        "duration" : 297082
+      }
+    }, {
       "uid" : "e2bc0c5161c11d9c",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
@@ -727,12 +1048,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "67eb377cedd06269",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925306,
+        "stop" : 1751384925306,
+        "duration" : 0
+      }
+    }, {
       "uid" : "6d9e6364cdb5e903",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
@@ -746,13 +1076,22 @@
   "1068dfde36f458b4b76be55e159487e0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "24f7a045684db9df",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"2 / 6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751395274886,
+        "stop" : 1751395313492,
+        "duration" : 38606
+      }
+    }, {
       "uid" : "881ac2eac206269d",
       "status" : "passed",
       "time" : {
@@ -764,14 +1103,23 @@
   },
   "601799a9efc28408ce8bde27845aca08" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2ee2230e07a1cfe0",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751396399462,
+        "stop" : 1751396641445,
+        "duration" : 241983
+      }
+    }, {
       "uid" : "af107cc3972002f1",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -785,13 +1133,22 @@
   "4d7588b6ca974609f15c061aa465fe80" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "92214e84520478fc",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Робб ",
+      "time" : {
+        "start" : 1751392411999,
+        "stop" : 1751392768836,
+        "duration" : 356837
+      }
+    }, {
       "uid" : "8e7f78e7538f281f",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Тип консультации\"] (tried for 15 second(s) with 500 milliseconds interval)",
@@ -805,13 +1162,22 @@
   "91a94f66aeb0558dc939814d48ff7247" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d1a2f872fa6f91f3",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751390222480,
+        "stop" : 1751390673237,
+        "duration" : 450757
+      }
+    }, {
       "uid" : "2969a86d659e31af",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -824,14 +1190,23 @@
   },
   "784bb5000701054f526ae1e00939cbfd" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e8e12a13aebca372",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751397696010,
+        "stop" : 1751397941277,
+        "duration" : 245267
+      }
+    }, {
       "uid" : "73f250eb49675f4f",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -844,14 +1219,23 @@
   },
   "67290ec330cbe4f448f8e0796f878d36" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c5031293e2707637",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
+      "time" : {
+        "start" : 1751392768855,
+        "stop" : 1751393080824,
+        "duration" : 311969
+      }
+    }, {
       "uid" : "44b60f47ae66a271",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Операции\"]",
@@ -866,12 +1250,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4f5361142a6ed93f",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925299,
+        "stop" : 1751384925299,
+        "duration" : 0
+      }
+    }, {
       "uid" : "8af3257a8ebc845d",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
@@ -884,14 +1277,23 @@
   },
   "e5afd0724e8caa80e4cfe53484cc03c6" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "35ca0f118d5bcfa0",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751395441264,
+        "stop" : 1751395681237,
+        "duration" : 239973
+      }
+    }, {
       "uid" : "6fa1d1263d256e2e",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -902,16 +1304,45 @@
       }
     } ]
   },
-  "e03e9d43e0d47c51e5c1200eee81632f" : {
+  "dcaecbf20057817e770f4187e6ec9027" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
+      "uid" : "7f39502274bf6d7b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Связаться с СОГАЗом\"] (tried for 40 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751398935310,
+        "stop" : 1751399296172,
+        "duration" : 360862
+      }
+    } ]
+  },
+  "e03e9d43e0d47c51e5c1200eee81632f" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f93cae47c60e683c",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751396161898,
+        "stop" : 1751396399444,
+        "duration" : 237546
+      }
+    }, {
       "uid" : "2588d38a4351a0bc",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -925,13 +1356,22 @@
   "10c432b313dbf8f39c2d405907abdbdb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5575de0162410672",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751389311722,
+        "stop" : 1751389756964,
+        "duration" : 445242
+      }
+    }, {
       "uid" : "414593e11c2bd87",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -945,13 +1385,22 @@
   "1b75182e7b1e73cf5ae6d416e279d785" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cd11a4c70ed221f",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751391991049,
+        "stop" : 1751392411987,
+        "duration" : 420938
+      }
+    }, {
       "uid" : "11bcab4f0c8e2dcf",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -965,13 +1414,22 @@
   "4286382df6cd5e81a6cfd8becf94837c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "45c494cad0a60da6",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
+      "time" : {
+        "start" : 1751391543125,
+        "stop" : 1751391991030,
+        "duration" : 447905
+      }
+    }, {
       "uid" : "9a6ab75513ce36ab",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Флинн'",
@@ -1006,12 +1464,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ca7a446ccb482674",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925301,
+        "stop" : 1751384925301,
+        "duration" : 0
+      }
+    }, {
       "uid" : "270e1b14330170b2",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
@@ -1026,12 +1493,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "28e35d8b17cfca82",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925306,
+        "stop" : 1751384925306,
+        "duration" : 0
+      }
+    }, {
       "uid" : "9768128e886bf806",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
@@ -1045,13 +1521,22 @@
   "196479d062f0019fa7abf131175caed" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9ce6a94b57ffd3d8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"2 / 6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751395313500,
+        "stop" : 1751395351809,
+        "duration" : 38309
+      }
+    }, {
       "uid" : "35e6cd5a41463454",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"2 / 6\"] (tried for 15 second(s) with 500 milliseconds interval)",
@@ -1066,12 +1551,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "18f8caafeb26bf4b",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.ElregTest.conclusion() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384488468,
+        "stop" : 1751384488468,
+        "duration" : 0
+      }
+    }, {
       "uid" : "a7ee0e38ce26e4b7",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.ElregTest.conclusion() throws java.lang.InterruptedException is @Disabled",
@@ -1086,12 +1580,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4c1b978a617e5da5",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1751384925303,
+        "stop" : 1751384925303,
+        "duration" : 0
+      }
+    }, {
       "uid" : "1682ccdb1a1665a",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
@@ -1104,14 +1607,23 @@
   },
   "6c013786e546045f008ddc8f54b14c10" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "60fd0ed5ada9fd2b",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
+      "time" : {
+        "start" : 1751396641457,
+        "stop" : 1751396865518,
+        "duration" : 224061
+      }
+    }, {
       "uid" : "9b1ff2eb75341849",
       "status" : "failed",
       "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"]",
@@ -1125,13 +1637,22 @@
   "493f4f9d6566967d28d36f973e930190" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3989a08ebd58f65b",
+      "status" : "broken",
+      "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Робб ",
+      "time" : {
+        "start" : 1751397086314,
+        "stop" : 1751397458872,
+        "duration" : 372558
+      }
+    }, {
       "uid" : "389360338de52bb3",
       "status" : "broken",
       "statusDetails" : "OCR is disabled due to stability issues. Cannot click: Робб ",
@@ -1145,13 +1666,22 @@
   "68b47b537cfcf9d4ef3daef0137ef71f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f927c28286447b4b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Тип консультации\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1751387728539,
+        "stop" : 1751388055976,
+        "duration" : 327437
+      }
+    }, {
       "uid" : "73d5a2959c2c644",
       "status" : "broken",
       "statusDetails" : "Ошибка при OCR-клике: OCR не нашёл 'Робб ' на экране.",

@@ -1,6 +1,11 @@
 [ {
   "data" : {
     "Product defects" : 17,
+    "Test defects" : 18
+  }
+}, {
+  "data" : {
+    "Product defects" : 17,
     "Test defects" : 20
   }
 }, {

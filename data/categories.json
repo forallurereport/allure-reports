@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found: By.xpath: //XCUIElementTypeButton[@name=\"Войти\"]",
+      "children" : [ {
+        "name" : "authorization()",
+        "uid" : "d086fc3ec6f76cf0",
+        "parentUid" : "7dfda1944fe4e3278dba02643da643d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1755169051660,
+          "stop" : 1755169089299,
+          "duration" : 37639
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7dfda1944fe4e3278dba02643da643d9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

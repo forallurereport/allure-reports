@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "mini.local",
     "children" : [ {
-      "name" : "84921@mini.local.main(1)",
+      "name" : "33854@mini.local.main(1)",
       "children" : [ {
         "name" : "authorization()",
-        "uid" : "739757a72806f5c7",
-        "parentUid" : "f5af9f5cc214296db34f2e1c3eeef886",
-        "status" : "passed",
+        "uid" : "d086fc3ec6f76cf0",
+        "parentUid" : "d380f8da76679a1e9dba0d023935f618",
+        "status" : "failed",
         "time" : {
-          "start" : 1751231751962,
-          "stop" : 1751231931426,
-          "duration" : 179464
+          "start" : 1755169051660,
+          "stop" : 1755169089299,
+          "duration" : 37639
         },
         "flaky" : false,
-        "newFailed" : false,
+        "newFailed" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "f5af9f5cc214296db34f2e1c3eeef886"
+      "uid" : "d380f8da76679a1e9dba0d023935f618"
     } ],
     "uid" : "e8db958fadb984d65d97521d2a3f1fce"
   } ]

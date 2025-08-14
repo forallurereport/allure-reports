@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Jun 30 00:15:51 MSK 2025","Mon Jun 30 00:18:51 MSK 2025","179464","","MobileTesting.tests.SmokeTest","","MobileTesting.tests.SmokeTest","authorization","authorization()","Авторизация пользователя"
+"failed","Thu Aug 14 13:57:31 MSK 2025","Thu Aug 14 13:58:09 MSK 2025","37639","","MobileTesting.tests.SmokeTest","","MobileTesting.tests.SmokeTest","authorization","authorization()","Авторизация пользователя"

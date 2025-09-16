@@ -1,5 +1,105 @@
 {
-  "97960b3265d6a8cb0001717f51777f6b" : {
+  "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9183c5c9418a1f6a",
+      "status" : "failed",
+      "statusDetails" : "Ошибка: количество аллергий должно уменьшиться на 1. ==> expected: <0> but was: <1>",
+      "time" : {
+        "start" : 1758026543273,
+        "stop" : 1758026721327,
+        "duration" : 178054
+      }
+    } ]
+  },
+  "60ad711f96ae91af8fa840af672238e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be479c23f81e325b",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031555036,
+        "stop" : 1758031555036,
+        "duration" : 0
+      }
+    } ]
+  },
+  "877d2ccb612b12db0f1a13f2fbef2991" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c5b9c28a71f7d84",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758028248806,
+        "stop" : 1758028364923,
+        "duration" : 116117
+      }
+    } ]
+  },
+  "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e2ef67862f8a69e",
+      "status" : "failed",
+      "statusDetails" : "Element not found with accessibility ID: By.id: ru.sogaz.app.stage:id/doctor_opinion",
+      "time" : {
+        "start" : 1758027511865,
+        "stop" : 1758027587836,
+        "duration" : 75971
+      }
+    } ]
+  },
+  "97c1be067cb7cc8af2dc2119869babe2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2acaaf5b134c321",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031555094,
+        "stop" : 1758031555094,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f67134439d58a9cfb24d3a9c728841eb" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +109,1282 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "739757a72806f5c7",
+      "uid" : "31d1974e275b727b",
       "status" : "passed",
       "time" : {
-        "start" : 1751231751962,
-        "stop" : 1751231931426,
-        "duration" : 179464
+        "start" : 1758027322611,
+        "stop" : 1758027511855,
+        "duration" : 189244
+      }
+    } ]
+  },
+  "f806401a4fe5145ec0e282970490ec1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa19453171344f48",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758031683384,
+        "stop" : 1758031740077,
+        "duration" : 56693
+      }
+    } ]
+  },
+  "43654123208c6e7a3c356c0133360b1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "570e13361812a9a4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Регистрация\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758029550865,
+        "stop" : 1758029573042,
+        "duration" : 22177
+      }
+    } ]
+  },
+  "75d4b60cd5c57d88e7622405baf8befb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eaf1e7a1a834c6e4",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.id: ru.sogaz.app.stage:id/popup_menu_button",
+      "time" : {
+        "start" : 1758030328606,
+        "stop" : 1758030457211,
+        "duration" : 128605
+      }
+    } ]
+  },
+  "18ec24184790bbd2571b088796ff69b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a0d42b0780aa1f1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758032153514,
+        "stop" : 1758032212707,
+        "duration" : 59193
+      }
+    } ]
+  },
+  "d7a09ac00e6080db4671a69b7f8f8d8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eff4f4dc14063dc1",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758028592626,
+        "stop" : 1758028708093,
+        "duration" : 115467
+      }
+    } ]
+  },
+  "31fef632ec4ee88d6e90966532bf9b1b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c03669f1f29d2f9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/button_text (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758029631662,
+        "stop" : 1758029675365,
+        "duration" : 43703
+      }
+    } ]
+  },
+  "26bac62248ca4bd68ebe8c33827f49f7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f558fc6da309a97",
+      "status" : "failed",
+      "statusDetails" : "Element not found with accessibility ID: By.id: ru.sogaz.app.stage:id/doctor_opinion",
+      "time" : {
+        "start" : 1758027246665,
+        "stop" : 1758027322600,
+        "duration" : 75935
+      }
+    } ]
+  },
+  "8b25fd7bd9ed845d19081ee0799ea118" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5fc72cdef66b1ea",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/injury (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758027587844,
+        "stop" : 1758027644141,
+        "duration" : 56297
+      }
+    } ]
+  },
+  "b76a326bd49d768ca63850901cbb024d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20d96bef79b8b9e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758028024949,
+        "stop" : 1758028128730,
+        "duration" : 103781
+      }
+    } ]
+  },
+  "7d315c9d58b3c2fd361133fc95ee854f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3df28f88599a5ea",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758030954068,
+        "stop" : 1758031079972,
+        "duration" : 125904
+      }
+    } ]
+  },
+  "894c7f397b07a6c95533ffa69946e188" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79f072687a430c77",
+      "status" : "failed",
+      "statusDetails" : "Should not be able to save conclusion with missing required fields",
+      "time" : {
+        "start" : 1758030459215,
+        "stop" : 1758030528551,
+        "duration" : 69336
+      }
+    } ]
+  },
+  "5e94fe62b62986319f169be63613673" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d81f35f0265cea7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Заключение сохранено\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758026721424,
+        "stop" : 1758027071285,
+        "duration" : 349861
+      }
+    } ]
+  },
+  "171f22ce60306c9f366a7b5a1d834ae4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e3d3a067d8ad51b",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758028364946,
+        "stop" : 1758028479477,
+        "duration" : 114531
+      }
+    } ]
+  },
+  "d839064510354c59ad3042a75e06a20e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e8cf559eb3ac1f4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Регистрация\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758029675375,
+        "stop" : 1758029697336,
+        "duration" : 21961
+      }
+    } ]
+  },
+  "18b983ac3d011f2581b57cffec2c2fc1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7332e7374caf31a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758030790264,
+        "stop" : 1758030871052,
+        "duration" : 80788
+      }
+    } ]
+  },
+  "97960b3265d6a8cb0001717f51777f6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d782a827a7c637e",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.id: ru.sogaz.app.stage:id/settings",
+      "time" : {
+        "start" : 1758027800722,
+        "stop" : 1758027924130,
+        "duration" : 123408
+      }
+    } ]
+  },
+  "e9ea1acc5a05ef13141367b5be0fa5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "848e407ac3b8a416",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Регистрация\"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758029610695,
+        "stop" : 1758029631647,
+        "duration" : 20952
+      }
+    } ]
+  },
+  "52cb1388c27fcb104d3bf655780ca1b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f13aafe0c7904713",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758031801866,
+        "stop" : 1758031861111,
+        "duration" : 59245
+      }
+    } ]
+  },
+  "507f3329bcac06196c711d6214e28910" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a3a175141a3dd44",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031555107,
+        "stop" : 1758031555107,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e2e8b3ad51ecb5848fcf75c3ff240125" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f717887083d8f6b",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.id: ru.sogaz.app.stage:id/popup_menu_button",
+      "time" : {
+        "start" : 1758030195331,
+        "stop" : 1758030328587,
+        "duration" : 133256
+      }
+    } ]
+  },
+  "8c176700601bd05c1972864a7d482183" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "657c9265f94acf21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758027071318,
+        "stop" : 1758027246649,
+        "duration" : 175331
+      }
+    } ]
+  },
+  "fe81c9de9a3b137531503ead196a3e40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2083490846813944",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758031976741,
+        "stop" : 1758032035149,
+        "duration" : 58408
+      }
+    } ]
+  },
+  "d851832cd2ceb5f3bbf56aa23bb8576" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c1b4da468a27a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758031317583,
+        "stop" : 1758031404565,
+        "duration" : 86982
+      }
+    } ]
+  },
+  "e034c34663abdee9611139e550dd8986" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e819b0b922ea582",
+      "status" : "broken",
+      "statusDetails" : "Failed to verify conclusion is displayed: Conclusion details are not displayed",
+      "time" : {
+        "start" : 1758031404574,
+        "stop" : 1758031470805,
+        "duration" : 66231
+      }
+    } ]
+  },
+  "141b5f4ac7ae0c04bfb568209c4e9585" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5dc954ac465b221a",
+      "status" : "broken",
+      "statusDetails" : "Failed to verify conclusion was added: Conclusion was not added successfully",
+      "time" : {
+        "start" : 1758030871059,
+        "stop" : 1758030954054,
+        "duration" : 82995
+      }
+    } ]
+  },
+  "2ebd030ead2202f2de6f1bad7e5cfed6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5986e5b7b5a4ebe",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758029061059,
+        "stop" : 1758029061059,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4781f172fc53ddf6d8b9250d31067a99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b8e45accf6f390d",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.id: ru.sogaz.app.stage:id/popup_menu_button",
+      "time" : {
+        "start" : 1758029946193,
+        "stop" : 1758030064415,
+        "duration" : 118222
+      }
+    } ]
+  },
+  "560ede97c4c2afdae332f33b4e3d1494" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f931d625b18f521c",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758029277763,
+        "stop" : 1758029277763,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3b75c42caae7b8bda70cb5b50052d65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "890cfa6aab438722",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758028824534,
+        "stop" : 1758028942312,
+        "duration" : 117778
+      }
+    } ]
+  },
+  "e0ae6fe56703946367c86442216294b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bb72aaccfc5a14a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758030714927,
+        "stop" : 1758030790256,
+        "duration" : 75329
+      }
+    } ]
+  },
+  "2898282340b486d23243848ed9820086" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2cba8852fafb0e24",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758031918233,
+        "stop" : 1758031976731,
+        "duration" : 58498
+      }
+    } ]
+  },
+  "ba6a924fce26128c6ee2510e73e8a21d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6330d9a5b6cf87a6",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //android.widget.TextView[@text=\"Тип консультации\"]",
+      "time" : {
+        "start" : 1758029061061,
+        "stop" : 1758029198879,
+        "duration" : 137818
+      }
+    } ]
+  },
+  "f7831b04c8295468701941be18dcd5d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb755b3f4e16f5b4",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.id: ru.sogaz.app.stage:id/input_code",
+      "time" : {
+        "start" : 1758029697345,
+        "stop" : 1758029864638,
+        "duration" : 167293
+      }
+    } ]
+  },
+  "1861d2113478472056474c95422ed11b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9930a4c159aa31ba",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758028942327,
+        "stop" : 1758029061049,
+        "duration" : 118722
+      }
+    } ]
+  },
+  "d69edb2c74d420771efbbb373b3d27e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "762986fe54f72926",
+      "status" : "broken",
+      "statusDetails" : "Failed to verify conclusion was added: Conclusion was not added successfully",
+      "time" : {
+        "start" : 1758031233360,
+        "stop" : 1758031317561,
+        "duration" : 84201
+      }
+    } ]
+  },
+  "66c70b389e0fbbe16e554a89f0fb1684" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1db5ceda08caaaeb",
+      "status" : "failed",
+      "statusDetails" : "Element not found with accessibility ID: By.id: ru.sogaz.app.stage:id/doctor_opinion",
+      "time" : {
+        "start" : 1758027721652,
+        "stop" : 1758027798842,
+        "duration" : 77190
+      }
+    } ]
+  },
+  "1068dfde36f458b4b76be55e159487e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c615b160fb9c504",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/button_text (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758029573122,
+        "stop" : 1758029610682,
+        "duration" : 37560
+      }
+    } ]
+  },
+  "d0e183c5aea0d02949fbb7f7c8df728f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10f728ef13158909",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031555147,
+        "stop" : 1758031555147,
+        "duration" : 0
+      }
+    } ]
+  },
+  "601799a9efc28408ce8bde27845aca08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13b2f829bfee52b7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758032035193,
+        "stop" : 1758032094451,
+        "duration" : 59258
+      }
+    } ]
+  },
+  "4d7588b6ca974609f15c061aa465fe80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87e1ae5f2c55c06c",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //android.widget.TextView[@text=\"Тип консультации\"]",
+      "time" : {
+        "start" : 1758029407428,
+        "stop" : 1758029549554,
+        "duration" : 142126
+      }
+    } ]
+  },
+  "784bb5000701054f526ae1e00939cbfd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b52c9ff50c590af",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758031557624,
+        "stop" : 1758031618801,
+        "duration" : 61177
+      }
+    } ]
+  },
+  "91a94f66aeb0558dc939814d48ff7247" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "173ed95f6524618e",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758029277764,
+        "stop" : 1758029407412,
+        "duration" : 129648
+      }
+    } ]
+  },
+  "d3aba8d75c69c5794c2e179d79f32081" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e954ad944f57215",
+      "status" : "broken",
+      "statusDetails" : "Failed to evaluate condition [org.junit.jupiter.api.condition.DisabledIfCondition]: Could not find method [isIOS] in class [MobileTesting.tests.BuySectionTest]",
+      "time" : {
+        "start" : 1758028130290,
+        "stop" : 1758028130291,
+        "duration" : 1
+      }
+    } ]
+  },
+  "67290ec330cbe4f448f8e0796f878d36" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c028cab48eb7c541",
+      "status" : "failed",
+      "statusDetails" : "Element not found with accessibility ID: By.id: ru.sogaz.app.stage:id/doctor_opinion",
+      "time" : {
+        "start" : 1758027644150,
+        "stop" : 1758027721612,
+        "duration" : 77462
+      }
+    } ]
+  },
+  "58ae8a85773b95a7b4345b4c9d4a82bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1023315b16c2fec",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031555091,
+        "stop" : 1758031555091,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e5afd0724e8caa80e4cfe53484cc03c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93bde1741413f74",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758031740173,
+        "stop" : 1758031801855,
+        "duration" : 61682
+      }
+    } ]
+  },
+  "e03e9d43e0d47c51e5c1200eee81632f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "febf86b894b074dc",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758032094459,
+        "stop" : 1758032153508,
+        "duration" : 59049
+      }
+    } ]
+  },
+  "10c432b313dbf8f39c2d405907abdbdb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dafc229931f0c9f7",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758028131865,
+        "stop" : 1758028248714,
+        "duration" : 116849
+      }
+    } ]
+  },
+  "b95b1ba966a9308cf4ab6893926523d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a70f51c7d65d710d",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.id: ru.sogaz.app.stage:id/popup_menu_button",
+      "time" : {
+        "start" : 1758030064511,
+        "stop" : 1758030195321,
+        "duration" : 130810
+      }
+    } ]
+  },
+  "1b75182e7b1e73cf5ae6d416e279d785" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1d19a589f674d98",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758028708105,
+        "stop" : 1758028824516,
+        "duration" : 116411
+      }
+    } ]
+  },
+  "4286382df6cd5e81a6cfd8becf94837c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aab42682bbcd6a85",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758028479489,
+        "stop" : 1758028592615,
+        "duration" : 113126
+      }
+    } ]
+  },
+  "c2cc612905f07f77e2f38a980c3ef85e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba24d95dc6074038",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758031157675,
+        "stop" : 1758031233340,
+        "duration" : 75665
+      }
+    } ]
+  },
+  "fc22756d4ffb455bde934fd0a795811d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffe069e8ff8709c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758027924231,
+        "stop" : 1758028024940,
+        "duration" : 100709
+      }
+    } ]
+  },
+  "de0069054fb7ac2e92d1df5c33a933f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b397c49af5e1f157",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031555096,
+        "stop" : 1758031555096,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a0d25b93257a21b2f57c0006cc2092bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "947bf76c147df2bf",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031555139,
+        "stop" : 1758031555139,
+        "duration" : 0
+      }
+    } ]
+  },
+  "56be4d609e04c4a7d34498ed52ca953b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e93c72e34faf2c02",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvTitle\" and @text=\"Запись в клинику\"]",
+      "time" : {
+        "start" : 1758030603659,
+        "stop" : 1758030714915,
+        "duration" : 111256
+      }
+    } ]
+  },
+  "d57ea9efb450c437ffb55e6b3cbb5684" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b677ba23233bbc5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758031079994,
+        "stop" : 1758031157669,
+        "duration" : 77675
+      }
+    } ]
+  },
+  "196479d062f0019fa7abf131175caed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c42858273f8e2375",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/agreement_checkbox (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758029864650,
+        "stop" : 1758029944333,
+        "duration" : 79683
+      }
+    } ]
+  },
+  "3cb01562409746a91b163867edc81753" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a60301a7c25dd88e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758030528626,
+        "stop" : 1758030603648,
+        "duration" : 75022
+      }
+    } ]
+  },
+  "781dd596a177ed31b84c12cd7ae3a5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4f3041450e9b99b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758031470816,
+        "stop" : 1758031553543,
+        "duration" : 82727
+      }
+    } ]
+  },
+  "13f992910106d08d4d88cb71e729d71c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "403c9bb17de790a9",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031555101,
+        "stop" : 1758031555102,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6c013786e546045f008ddc8f54b14c10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39cc9e8303e4240a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758031861121,
+        "stop" : 1758031918226,
+        "duration" : 57105
+      }
+    } ]
+  },
+  "493f4f9d6566967d28d36f973e930190" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "812ac1f583eeb1ac",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //androidx.recyclerview.widget.RecyclerView[@resource-id=\"ru.sogaz.app.stage:id/list\"]/androidx.cardview.widget.CardView[1] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758031618885,
+        "stop" : 1758031683375,
+        "duration" : 64490
+      }
+    } ]
+  },
+  "68b47b537cfcf9d4ef3daef0137ef71f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfbc249120f12331",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]",
+      "time" : {
+        "start" : 1758029198886,
+        "stop" : 1758029277757,
+        "duration" : 78871
       }
     } ]
   }

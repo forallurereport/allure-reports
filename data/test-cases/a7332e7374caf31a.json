@@ -1,0 +1,390 @@
+{
+  "uid" : "a7332e7374caf31a",
+  "name" : "cancelRegistrationBeforeConsultation()",
+  "fullName" : "MobileTesting.tests.ElregTest.cancelRegistrationBeforeConsultation",
+  "historyId" : "18b983ac3d011f2581b57cffec2c2fc1",
+  "time" : {
+    "start" : 1758030790264,
+    "stop" : 1758030871052,
+    "duration" : 80788
+  },
+  "description" : "Отмена записи до начала консультации",
+  "descriptionHtml" : "<p>Отмена записи до начала консультации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Отмена записи до начала консультации",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1758030800508,
+        "stop" : 1758030807047,
+        "duration" : 6539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "A814FD1F65DF848140F64C3455743EC0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Войти в систему",
+      "time" : {
+        "start" : 1758030807049,
+        "stop" : 1758030840686,
+        "duration" : 33637
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнить и отправить форму входа",
+        "time" : {
+          "start" : 1758030807049,
+          "stop" : 1758030831594,
+          "duration" : 24545
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести email",
+          "time" : {
+            "start" : 1758030815653,
+            "stop" : 1758030816856,
+            "duration" : 1203
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести пароль",
+          "time" : {
+            "start" : 1758030816857,
+            "stop" : 1758030818859,
+            "duration" : 2002
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1102"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать на кнопку входа",
+          "time" : {
+            "start" : 1758030818860,
+            "stop" : 1758030820389,
+            "duration" : 1529
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c0292ce6a45cc9ec",
+            "name" : "Заполненная форма входа_mobile_screenshot",
+            "source" : "c0292ce6a45cc9ec.png",
+            "type" : "image/png",
+            "size" : 151313
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Подтвердить капчу",
+          "time" : {
+            "start" : 1758030824790,
+            "stop" : 1758030829309,
+            "duration" : 4519
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажать на кнопку входа",
+          "time" : {
+            "start" : 1758030830575,
+            "stop" : 1758030831594,
+            "duration" : 1019
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "50fe543f792eae11",
+            "name" : "Заполненная форма входа_mobile_screenshot",
+            "source" : "50fe543f792eae11.png",
+            "type" : "image/png",
+            "size" : 53795
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "fc4bac87001aa33",
+          "name" : "Clicked_By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]",
+          "source" : "fc4bac87001aa33.png",
+          "type" : "image/png",
+          "size" : 82222
+        }, {
+          "uid" : "12e5e356ae2f10c0",
+          "name" : "Visible_By.id: ru.sogaz.app.stage:id/input_login",
+          "source" : "12e5e356ae2f10c0.png",
+          "type" : "image/png",
+          "size" : 82222
+        }, {
+          "uid" : "e5b7770a281651ab",
+          "name" : "Форма входа_mobile_screenshot",
+          "source" : "e5b7770a281651ab.png",
+          "type" : "image/png",
+          "size" : 82222
+        }, {
+          "uid" : "9f268971ce25eea6",
+          "name" : "Форма входа после капчи_mobile_screenshot",
+          "source" : "9f268971ce25eea6.png",
+          "type" : "image/png",
+          "size" : 53795
+        } ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1102"
+        } ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 5,
+        "hasContent" : true
+      }, {
+        "name" : "Ввести ПИН-код",
+        "time" : {
+          "start" : 1758030831594,
+          "stop" : 1758030840686,
+          "duration" : 9092
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ec394f745f07ea57",
+          "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+          "source" : "ec394f745f07ea57.png",
+          "type" : "image/png",
+          "size" : 53795
+        }, {
+          "uid" : "c359738e1ad91bbe",
+          "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+          "source" : "c359738e1ad91bbe.png",
+          "type" : "image/png",
+          "size" : 54048
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "Pavel.mordasov@overteam.ru"
+      }, {
+        "name" : "password",
+        "value" : "Pavel.mordasov@overteam.ru1102"
+      } ],
+      "attachmentsCount" : 8,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "Handle blue screen if present",
+      "time" : {
+        "start" : 1758030840687,
+        "stop" : 1758030844842,
+        "duration" : 4155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Отмена записи",
+      "time" : {
+        "start" : 1758030849253,
+        "stop" : 1758030858978,
+        "duration" : 9725
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Навигация к вкладке Здоровье",
+        "time" : {
+          "start" : 1758030849253,
+          "stop" : 1758030852876,
+          "duration" : 3623
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6537f7fcab3e23d3",
+          "name" : "Visible_By.xpath: (//android.widget.TextView[@text=\"Здоровье\"])[1]",
+          "source" : "6537f7fcab3e23d3.png",
+          "type" : "image/png",
+          "size" : 174756
+        }, {
+          "uid" : "c982623ddc1298e6",
+          "name" : "After_Health_Tab_Click_Android",
+          "source" : "c982623ddc1298e6.png",
+          "type" : "image/png",
+          "size" : 174708
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a57f420eb20f9113",
+        "name" : "Appointment_Card_Not_Found",
+        "source" : "a57f420eb20f9113.png",
+        "type" : "image/png",
+        "size" : 174692
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка отмены в таймлайне",
+      "time" : {
+        "start" : 1758030858978,
+        "stop" : 1758030868708,
+        "duration" : 9730
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Навигация к вкладке Здоровье",
+        "time" : {
+          "start" : 1758030858978,
+          "stop" : 1758030862503,
+          "duration" : 3525
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5c6bd887406358da",
+          "name" : "Visible_By.xpath: (//android.widget.TextView[@text=\"Здоровье\"])[1]",
+          "source" : "5c6bd887406358da.png",
+          "type" : "image/png",
+          "size" : 174774
+        }, {
+          "uid" : "74f8f82bdd3ebdba",
+          "name" : "After_Health_Tab_Click_Android",
+          "source" : "74f8f82bdd3ebdba.png",
+          "type" : "image/png",
+          "size" : 174979
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "6a3eaab794d1ffd6",
+        "name" : "Appointment_Cancelled_Successfully",
+        "source" : "6a3eaab794d1ffd6.png",
+        "type" : "image/png",
+        "size" : 174898
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ed8ca2677e36a0",
+      "name" : "registration_cancellation",
+      "source" : "ed8ca2677e36a0.png",
+      "type" : "image/png",
+      "size" : 175193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 14,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "29871@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "cancelRegistrationBeforeConsultation"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7332e7374caf31a.json",
+  "parameterValues" : [ ]
+}

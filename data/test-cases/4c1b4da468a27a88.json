@@ -1,0 +1,345 @@
+{
+  "uid" : "4c1b4da468a27a88",
+  "name" : "checkTimelineDisplay()",
+  "fullName" : "MobileTesting.tests.ElregTest.checkTimelineDisplay",
+  "historyId" : "d851832cd2ceb5f3bbf56aa23bb8576",
+  "time" : {
+    "start" : 1758031317583,
+    "stop" : 1758031404565,
+    "duration" : 86982
+  },
+  "description" : "Проверка отображения записи в таймлайне",
+  "descriptionHtml" : "<p>Проверка отображения записи в таймлайне</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка отображения записи в таймлайне",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1758031328131,
+        "stop" : 1758031335543,
+        "duration" : 7412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "A814FD1F65DF848140F64C3455743EC0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Войти в систему",
+      "time" : {
+        "start" : 1758031335552,
+        "stop" : 1758031386613,
+        "duration" : 51061
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнить и отправить форму входа",
+        "time" : {
+          "start" : 1758031335552,
+          "stop" : 1758031376417,
+          "duration" : 40865
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести email",
+          "time" : {
+            "start" : 1758031358652,
+            "stop" : 1758031359874,
+            "duration" : 1222
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести пароль",
+          "time" : {
+            "start" : 1758031359874,
+            "stop" : 1758031362539,
+            "duration" : 2665
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1102"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать на кнопку входа",
+          "time" : {
+            "start" : 1758031362539,
+            "stop" : 1758031366162,
+            "duration" : 3623
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f596e6b4bc83a4e3",
+            "name" : "Заполненная форма входа_mobile_screenshot",
+            "source" : "f596e6b4bc83a4e3.png",
+            "type" : "image/png",
+            "size" : 151429
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Подтвердить капчу",
+          "time" : {
+            "start" : 1758031370166,
+            "stop" : 1758031374340,
+            "duration" : 4174
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажать на кнопку входа",
+          "time" : {
+            "start" : 1758031375577,
+            "stop" : 1758031376417,
+            "duration" : 840
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2e4e727981ed1c9b",
+            "name" : "Заполненная форма входа_mobile_screenshot",
+            "source" : "2e4e727981ed1c9b.png",
+            "type" : "image/png",
+            "size" : 53925
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "6943c5a549230c96",
+          "name" : "Clicked_By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]",
+          "source" : "6943c5a549230c96.png",
+          "type" : "image/png",
+          "size" : 82338
+        }, {
+          "uid" : "2c625f11f828ae4d",
+          "name" : "Visible_By.id: ru.sogaz.app.stage:id/input_login",
+          "source" : "2c625f11f828ae4d.png",
+          "type" : "image/png",
+          "size" : 82338
+        }, {
+          "uid" : "885e1b1910c5b5c3",
+          "name" : "Форма входа_mobile_screenshot",
+          "source" : "885e1b1910c5b5c3.png",
+          "type" : "image/png",
+          "size" : 82338
+        }, {
+          "uid" : "7bf55d20479598ec",
+          "name" : "Форма входа после капчи_mobile_screenshot",
+          "source" : "7bf55d20479598ec.png",
+          "type" : "image/png",
+          "size" : 53925
+        } ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1102"
+        } ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 5,
+        "hasContent" : true
+      }, {
+        "name" : "Ввести ПИН-код",
+        "time" : {
+          "start" : 1758031376417,
+          "stop" : 1758031386613,
+          "duration" : 10196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f1544cb8848064f",
+          "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+          "source" : "f1544cb8848064f.png",
+          "type" : "image/png",
+          "size" : 53925
+        }, {
+          "uid" : "123f129d655da8b4",
+          "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+          "source" : "123f129d655da8b4.png",
+          "type" : "image/png",
+          "size" : 51378
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "Pavel.mordasov@overteam.ru"
+      }, {
+        "name" : "password",
+        "value" : "Pavel.mordasov@overteam.ru1102"
+      } ],
+      "attachmentsCount" : 8,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка записи в ленте",
+      "time" : {
+        "start" : 1758031386615,
+        "stop" : 1758031402187,
+        "duration" : 15572
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Навигация к вкладке Здоровье",
+        "time" : {
+          "start" : 1758031388265,
+          "stop" : 1758031392841,
+          "duration" : 4576
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c84f55b204feb3e0",
+          "name" : "Visible_By.xpath: (//android.widget.TextView[@text=\"Здоровье\"])[1]",
+          "source" : "c84f55b204feb3e0.png",
+          "type" : "image/png",
+          "size" : 188192
+        }, {
+          "uid" : "940991f6b2f0ae77",
+          "name" : "After_Health_Tab_Click_Android",
+          "source" : "940991f6b2f0ae77.png",
+          "type" : "image/png",
+          "size" : 185853
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "2df972acc47c8265",
+        "name" : "Before_CheckTimeline",
+        "source" : "2df972acc47c8265.png",
+        "type" : "image/png",
+        "size" : 173733
+      }, {
+        "uid" : "a4945479cc6e59ba",
+        "name" : "After_Navigation_To_Health",
+        "source" : "a4945479cc6e59ba.png",
+        "type" : "image/png",
+        "size" : 176365
+      }, {
+        "uid" : "911d48dba6996701",
+        "name" : "Found_Appointment_Element_консультация",
+        "source" : "911d48dba6996701.png",
+        "type" : "image/png",
+        "size" : 176236
+      }, {
+        "uid" : "e8c7c235325e95cd",
+        "name" : "Appointment_Found_Success",
+        "source" : "e8c7c235325e95cd.png",
+        "type" : "image/png",
+        "size" : 176025
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "db8f4a9d0750d94d",
+      "name" : "timeline_display_verification",
+      "source" : "db8f4a9d0750d94d.png",
+      "type" : "image/png",
+      "size" : 176310
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "29871@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkTimelineDisplay"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c1b4da468a27a88.json",
+  "parameterValues" : [ ]
+}

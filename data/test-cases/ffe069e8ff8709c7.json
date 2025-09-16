@@ -1,0 +1,417 @@
+{
+  "uid" : "ffe069e8ff8709c7",
+  "name" : "onboarding()",
+  "fullName" : "MobileTesting.tests.SmokeTest.onboarding",
+  "historyId" : "fc22756d4ffb455bde934fd0a795811d",
+  "time" : {
+    "start" : 1758027924231,
+    "stop" : 1758028024940,
+    "duration" : 100709
+  },
+  "description" : "Onboarding",
+  "descriptionHtml" : "<p>Onboarding</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Onboarding",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1758027932933,
+        "stop" : 1758027939556,
+        "duration" : 6623
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "A814FD1F65DF848140F64C3455743EC0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Onboarding",
+      "time" : {
+        "start" : 1758027939565,
+        "stop" : 1758028023511,
+        "duration" : 83946
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1758027939566,
+          "stop" : 1758027974898,
+          "duration" : 35332
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Войти в систему",
+          "time" : {
+            "start" : 1758027939570,
+            "stop" : 1758027974898,
+            "duration" : 35328
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Заполнить и отправить форму входа",
+            "time" : {
+              "start" : 1758027939570,
+              "stop" : 1758027966384,
+              "duration" : 26814
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Ввести email",
+              "time" : {
+                "start" : 1758027948513,
+                "stop" : 1758027949697,
+                "duration" : 1184
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "username",
+                "value" : "artur@test.ru"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Ввести пароль",
+              "time" : {
+                "start" : 1758027949698,
+                "stop" : 1758027952325,
+                "duration" : 2627
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "password",
+                "value" : "Artur@test.ru1101"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1758027952325,
+                "stop" : 1758027955770,
+                "duration" : 3445
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "eb2949fa4c749ca9",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "eb2949fa4c749ca9.png",
+                "type" : "image/png",
+                "size" : 147387
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Подтвердить капчу",
+              "time" : {
+                "start" : 1758027959968,
+                "stop" : 1758027964467,
+                "duration" : 4499
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : false
+            }, {
+              "name" : "Нажать на кнопку входа",
+              "time" : {
+                "start" : 1758027965550,
+                "stop" : 1758027966384,
+                "duration" : 834
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "76b41faca892417b",
+                "name" : "Заполненная форма входа_mobile_screenshot",
+                "source" : "76b41faca892417b.png",
+                "type" : "image/png",
+                "size" : 53802
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "81bba218d0e53d14",
+              "name" : "Clicked_By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]",
+              "source" : "81bba218d0e53d14.png",
+              "type" : "image/png",
+              "size" : 82096
+            }, {
+              "uid" : "aed104f9925e9072",
+              "name" : "Visible_By.id: ru.sogaz.app.stage:id/input_login",
+              "source" : "aed104f9925e9072.png",
+              "type" : "image/png",
+              "size" : 82096
+            }, {
+              "uid" : "fda1e1b5e33d7800",
+              "name" : "Форма входа_mobile_screenshot",
+              "source" : "fda1e1b5e33d7800.png",
+              "type" : "image/png",
+              "size" : 82096
+            }, {
+              "uid" : "f6f5538127802ebd",
+              "name" : "Форма входа после капчи_mobile_screenshot",
+              "source" : "f6f5538127802ebd.png",
+              "type" : "image/png",
+              "size" : 53802
+            } ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur@test.ru"
+            }, {
+              "name" : "password",
+              "value" : "Artur@test.ru1101"
+            } ],
+            "attachmentsCount" : 6,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 5,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести ПИН-код",
+            "time" : {
+              "start" : 1758027966385,
+              "stop" : 1758027974898,
+              "duration" : 8513
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "6326c256129787f8",
+              "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+              "source" : "6326c256129787f8.png",
+              "type" : "image/png",
+              "size" : 53802
+            }, {
+              "uid" : "73577a7ea1c4b408",
+              "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+              "source" : "73577a7ea1c4b408.png",
+              "type" : "image/png",
+              "size" : 54060
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur@test.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur@test.ru1101"
+          } ],
+          "attachmentsCount" : 8,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 7,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "e7568bd98948fb62",
+          "name" : "Авторизация для Android",
+          "source" : "e7568bd98948fb62.txt",
+          "type" : "text/plain",
+          "size" : 53
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 9,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 8,
+        "hasContent" : true
+      }, {
+        "name" : "Нажать на кнопку 'Мы хотим рассказать вам, что в приложении'",
+        "time" : {
+          "start" : 1758027974902,
+          "stop" : 1758027993445,
+          "duration" : 18543
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "77a1cfabe9ca28b4",
+          "name" : "Visible_By.id: ru.sogaz.app.stage:id/action_more",
+          "source" : "77a1cfabe9ca28b4.png",
+          "type" : "image/png",
+          "size" : 173710
+        }, {
+          "uid" : "2c238426d50c7081",
+          "name" : "Контакт с СОГАЗ_mobile_screenshot",
+          "source" : "2c238426d50c7081.png",
+          "type" : "image/png",
+          "size" : 418378
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Проверить кнопки next, back, close",
+        "time" : {
+          "start" : 1758027993446,
+          "stop" : 1758028022973,
+          "duration" : 29527
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3551b367fd65abd6",
+          "name" : "1. Подсказка: Ваша медкарта",
+          "source" : "3551b367fd65abd6.png",
+          "type" : "image/png",
+          "size" : 418736
+        }, {
+          "uid" : "f8b89365027432f5",
+          "name" : "2. Подсказка: С полисом ДМС СОГАЗ доступны услуги",
+          "source" : "f8b89365027432f5.png",
+          "type" : "image/png",
+          "size" : 268772
+        }, {
+          "uid" : "eb92729e65964ef5",
+          "name" : "3. Подсказка: Если вам действительно нужна скорая",
+          "source" : "eb92729e65964ef5.png",
+          "type" : "image/png",
+          "size" : 280678
+        }, {
+          "uid" : "c49382370d4fe36b",
+          "name" : "4. Подсказка: Если нужно записаться на прием в клинику",
+          "source" : "c49382370d4fe36b.png",
+          "type" : "image/png",
+          "size" : 281662
+        }, {
+          "uid" : "6b4339d74fb5ee19",
+          "name" : "5. Подсказка: Клиника просит показать гарантийное письмо от страховой? Ищите его здесь",
+          "source" : "6b4339d74fb5ee19.png",
+          "type" : "image/png",
+          "size" : 303215
+        }, {
+          "uid" : "c67b7089962fda58",
+          "name" : "6. Подсказка: Консультация с врачом онлайн — без визита в клинику",
+          "source" : "c67b7089962fda58.png",
+          "type" : "image/png",
+          "size" : 290367
+        }, {
+          "uid" : "fdfd32e1fc602b1d",
+          "name" : "7. Подсказка: Если Вы хотите вызвать врача на дом",
+          "source" : "fdfd32e1fc602b1d.png",
+          "type" : "image/png",
+          "size" : 278134
+        }, {
+          "uid" : "731f07fd76e3ce6f",
+          "name" : "8. Подсказка: Если Вам нужна срочная помощь психолога",
+          "source" : "731f07fd76e3ce6f.png",
+          "type" : "image/png",
+          "size" : 283796
+        }, {
+          "uid" : "447c2b012289df4e",
+          "name" : "9. Подсказка: Лента событий",
+          "source" : "447c2b012289df4e.png",
+          "type" : "image/png",
+          "size" : 250985
+        }, {
+          "uid" : "a14f2eb38e83d0d7",
+          "name" : "10. Предыдущая подсказка",
+          "source" : "a14f2eb38e83d0d7.png",
+          "type" : "image/png",
+          "size" : 283447
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 10,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "8b7a4fa1b71b1bdd",
+        "name" : "onboarding_mobile_screenshot",
+        "source" : "8b7a4fa1b71b1bdd.png",
+        "type" : "image/png",
+        "size" : 137124
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 22,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 11,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 22,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "22857@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "onboarding"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffe069e8ff8709c7.json",
+  "parameterValues" : [ ]
+}

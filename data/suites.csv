@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Jun 30 00:15:51 MSK 2025","Mon Jun 30 00:18:51 MSK 2025","179464","","MobileTesting.tests.SmokeTest","","MobileTesting.tests.SmokeTest","authorization","authorization()","Авторизация пользователя"
+"passed","Tue Sep 16 17:19:25 MSK 2025","Tue Sep 16 17:21:44 MSK 2025","138783","","MobileTesting.tests.LKAdminTestsWEB","","MobileTesting.tests.LKAdminTestsWEB","adminSchedulesTest","adminSchedulesTest()","Тест клика на Расписание в меню"
+"passed","Tue Sep 16 17:28:18 MSK 2025","Tue Sep 16 17:31:13 MSK 2025","175070","","MobileTesting.tests.LKAdminTestsWEB","","MobileTesting.tests.LKAdminTestsWEB","adminLoginTest","adminLoginTest()","Открытие нового расписания для врача"
+"passed","Tue Sep 16 17:21:44 MSK 2025","Tue Sep 16 17:24:45 MSK 2025","181037","","MobileTesting.tests.LKAdminTestsWEB","","MobileTesting.tests.LKAdminTestsWEB","adminMenuTest","adminMenuTest()","Тест навигации по меню админ панели"
+"passed","Tue Sep 16 17:24:45 MSK 2025","Tue Sep 16 17:28:18 MSK 2025","212837","","MobileTesting.tests.LKAdminTestsWEB","","MobileTesting.tests.LKAdminTestsWEB","adminPanelFullTest","adminPanelFullTest()","Полный тест админ панели: вход, проверка меню, выход"

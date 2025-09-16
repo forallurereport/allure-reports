@@ -2,21 +2,60 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "MobileTesting.tests.SmokeTest",
+    "name" : "MobileTesting.tests.LKAdminTestsWEB",
     "children" : [ {
-      "name" : "authorization",
-      "uid" : "739757a72806f5c7",
-      "parentUid" : "e3556137f230cf7b98198c0177857e40",
+      "name" : "adminSchedulesTest",
+      "uid" : "8d9b7e42ef860adc",
+      "parentUid" : "51afea3ec30ddf59e4bb4e2bec905525",
       "status" : "passed",
       "time" : {
-        "start" : 1751231751962,
-        "stop" : 1751231931426,
-        "duration" : 179464
+        "start" : 1758032365327,
+        "stop" : 1758032504110,
+        "duration" : 138783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "adminMenuTest",
+      "uid" : "bb0a5cf3747b4ef",
+      "parentUid" : "51afea3ec30ddf59e4bb4e2bec905525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758032504222,
+        "stop" : 1758032685259,
+        "duration" : 181037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "adminPanelFullTest",
+      "uid" : "e9d58941cadf9211",
+      "parentUid" : "51afea3ec30ddf59e4bb4e2bec905525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758032685272,
+        "stop" : 1758032898109,
+        "duration" : 212837
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "adminLoginTest",
+      "uid" : "9e327e7414ff8523",
+      "parentUid" : "51afea3ec30ddf59e4bb4e2bec905525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758032898136,
+        "stop" : 1758033073206,
+        "duration" : 175070
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "MobileTesting.tests.SmokeTest"
+    "uid" : "MobileTesting.tests.LKAdminTestsWEB"
   } ]
 }

@@ -1,0 +1,361 @@
+{
+  "uid" : "4e0e5cfaeb3e2405",
+  "name" : "authorization()",
+  "fullName" : "MobileTesting.tests.SmokeTest.authorization",
+  "historyId" : "97960b3265d6a8cb0001717f51777f6b",
+  "time" : {
+    "start" : 1758029070728,
+    "stop" : 1758029276358,
+    "duration" : 205630
+  },
+  "description" : "Авторизация пользователя",
+  "descriptionHtml" : "<p>Авторизация пользователя</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Авторизация пользователя",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1758029096914,
+        "stop" : 1758029103850,
+        "duration" : 6936
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "A814FD1F65DF848140F64C3455743EC0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Войти в систему",
+      "time" : {
+        "start" : 1758029125393,
+        "stop" : 1758029256475,
+        "duration" : 131082
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1758029125400,
+          "stop" : 1758029225914,
+          "duration" : 100514
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1758029125400,
+            "stop" : 1758029147799,
+            "duration" : 22399
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1758029133723,
+              "stop" : 1758029134588,
+              "duration" : 865
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur@test.ru"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1758029134589,
+              "stop" : 1758029136281,
+              "duration" : 1692
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Artur@test.ru1101"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1758029136281,
+              "stop" : 1758029137156,
+              "duration" : 875
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "208830fc0a8770b1",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "208830fc0a8770b1.png",
+              "type" : "image/png",
+              "size" : 217046
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1758029141247,
+              "stop" : 1758029147799,
+              "duration" : 6552
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "51867f79f9ee84fa",
+              "name" : "Visible_By.IosNsPredicate: type == \"XCUIElementTypeTextField\"",
+              "source" : "51867f79f9ee84fa.png",
+              "type" : "image/png",
+              "size" : 426105
+            }, {
+              "uid" : "86575e49581c489d",
+              "name" : "Капча решена_mobile_screenshot",
+              "source" : "86575e49581c489d.png",
+              "type" : "image/png",
+              "size" : 484523
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "27ad91f25311d289",
+            "name" : "Clicked_By.xpath: //XCUIElementTypeButton[@name=\"Войти\"]",
+            "source" : "27ad91f25311d289.png",
+            "type" : "image/png",
+            "size" : 288333
+          }, {
+            "uid" : "b1b5c8542198d772",
+            "name" : "Visible_By.IosNsPredicate: type == \"XCUIElementTypeTextField\"",
+            "source" : "b1b5c8542198d772.png",
+            "type" : "image/png",
+            "size" : 278766
+          }, {
+            "uid" : "ad21ecd019a9a1fe",
+            "name" : "Форма входа_mobile_screenshot",
+            "source" : "ad21ecd019a9a1fe.png",
+            "type" : "image/png",
+            "size" : 278742
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur@test.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur@test.ru1101"
+          } ],
+          "attachmentsCount" : 6,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 4,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести ПИН-код",
+          "time" : {
+            "start" : 1758029147799,
+            "stop" : 1758029195801,
+            "duration" : 48002
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a6d807ca3cf69b43",
+            "name" : "Visible_By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"]",
+            "source" : "a6d807ca3cf69b43.png",
+            "type" : "image/png",
+            "size" : 85751
+          }, {
+            "uid" : "4b2443d31dda5bb0",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "4b2443d31dda5bb0.png",
+            "type" : "image/png",
+            "size" : 85751
+          }, {
+            "uid" : "7b08f611b9ed4a5a",
+            "name" : "Visible_By.xpath: //XCUIElementTypeStaticText[@name=\"Повторите ПИН-код\"]",
+            "source" : "7b08f611b9ed4a5a.png",
+            "type" : "image/png",
+            "size" : 82262
+          }, {
+            "uid" : "83b995066f248d4f",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "83b995066f248d4f.png",
+            "type" : "image/png",
+            "size" : 82262
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "artur@test.ru"
+        }, {
+          "name" : "password",
+          "value" : "Artur@test.ru1101"
+        } ],
+        "attachmentsCount" : 10,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 6,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9fb321d6db0ec621",
+        "name" : "Авторизация для iOS",
+        "source" : "9fb321d6db0ec621.txt",
+        "type" : "text/plain",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 11,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть настройки",
+      "time" : {
+        "start" : 1758029256478,
+        "stop" : 1758029268943,
+        "duration" : 12465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33b43f687ea69934",
+        "name" : "Visible_By.xpath: //XCUIElementTypeButton[@name=\"Еще\"]",
+        "source" : "33b43f687ea69934.png",
+        "type" : "image/png",
+        "size" : 313368
+      }, {
+        "uid" : "7012980162260ed3",
+        "name" : "Visible_By.xpath: //XCUIElementTypeStaticText[@name=\"Настройки\"]",
+        "source" : "7012980162260ed3.png",
+        "type" : "image/png",
+        "size" : 189588
+      }, {
+        "uid" : "5e9668b9ca0f886c",
+        "name" : "Visible_By.AccessibilityId: Настройки",
+        "source" : "5e9668b9ca0f886c.png",
+        "type" : "image/png",
+        "size" : 174017
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выйти из системы",
+      "time" : {
+        "start" : 1758029268944,
+        "stop" : 1758029275098,
+        "duration" : 6154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4219f64d21ac536c",
+        "name" : "Visible_By.IosNsPredicate: label == \"Выйти\" AND name == \"Выйти\" AND value == \"Выйти\"",
+        "source" : "4219f64d21ac536c.png",
+        "type" : "image/png",
+        "size" : 174017
+      }, {
+        "uid" : "a4aa4940ea329aae",
+        "name" : "Visible_By.IosNsPredicate: label == \"Выйти из аккаунта\" AND name == \"Выйти из аккаунта\" AND type == \"XCUIElementTypeButton\"",
+        "source" : "a4aa4940ea329aae.png",
+        "type" : "image/png",
+        "size" : 202554
+      }, {
+        "uid" : "6a3ee99539ad1cd7",
+        "name" : "Visible_By.xpath: //XCUIElementTypeButton[@name=\"Войти\"]",
+        "source" : "6a3ee99539ad1cd7.png",
+        "type" : "image/png",
+        "size" : 189612
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Даниил Тарасенко"
+  }, {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "25942@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorization"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Даниил Тарасенко",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e0e5cfaeb3e2405.json",
+  "parameterValues" : [ ]
+}

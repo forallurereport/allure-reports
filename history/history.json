@@ -1,4 +1,443 @@
 {
+  "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "944fb450ca09c2c5",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeSearchField[@visible=\"true\"]",
+      "time" : {
+        "start" : 1758026543273,
+        "stop" : 1758026827648,
+        "duration" : 284375
+      }
+    } ]
+  },
+  "60ad711f96ae91af8fa840af672238e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83238a4791282b0d",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup18() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758048129701,
+        "stop" : 1758048129701,
+        "duration" : 0
+      }
+    } ]
+  },
+  "877d2ccb612b12db0f1a13f2fbef2991" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e2a0eae0e76b67",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //XCUIElementTypeButton[@name=\"Нет, спасибо\"]",
+      "time" : {
+        "start" : 1758029954707,
+        "stop" : 1758030095796,
+        "duration" : 141089
+      }
+    } ]
+  },
+  "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eef2204bcb77de4c",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeSearchField[@visible=\"true\"]",
+      "time" : {
+        "start" : 1758028066808,
+        "stop" : 1758028350434,
+        "duration" : 283626
+      }
+    } ]
+  },
+  "97c1be067cb7cc8af2dc2119869babe2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "daaa4f30845f07a3",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758048129748,
+        "stop" : 1758048129748,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f67134439d58a9cfb24d3a9c728841eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afd7631fb814d341",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeSearchField[@visible=\"true\"]",
+      "time" : {
+        "start" : 1758027790493,
+        "stop" : 1758028066791,
+        "duration" : 276298
+      }
+    } ]
+  },
+  "f806401a4fe5145ec0e282970490ec1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "40bb65ed388bf8fd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758048642606,
+        "stop" : 1758048862299,
+        "duration" : 219693
+      }
+    } ]
+  },
+  "43654123208c6e7a3c356c0133360b1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce0157c7248bda04",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //XCUIElementTypeButton[@name=\"Нет, спасибо\"]",
+      "time" : {
+        "start" : 1758032279378,
+        "stop" : 1758032582193,
+        "duration" : 302815
+      }
+    } ]
+  },
+  "18ec24184790bbd2571b088796ff69b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e59860cc4aaebe2b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758050306240,
+        "stop" : 1758050521772,
+        "duration" : 215532
+      }
+    } ]
+  },
+  "75d4b60cd5c57d88e7622405baf8befb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6429ad8b35dd2e05",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Связаться с СОГАЗом\"]",
+      "time" : {
+        "start" : 1758035700597,
+        "stop" : 1758036071183,
+        "duration" : 370586
+      }
+    } ]
+  },
+  "d7a09ac00e6080db4671a69b7f8f8d8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34d8c2d2e000abd3",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //XCUIElementTypeButton[@name=\"Войти\"]",
+      "time" : {
+        "start" : 1758030341183,
+        "stop" : 1758030432989,
+        "duration" : 91806
+      }
+    } ]
+  },
+  "31fef632ec4ee88d6e90966532bf9b1b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "351658707f05d9c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758033224532,
+        "stop" : 1758033733583,
+        "duration" : 509051
+      }
+    } ]
+  },
+  "26bac62248ca4bd68ebe8c33827f49f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99ef448dc6a4ac76",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09",
+      "time" : {
+        "start" : 1758027480537,
+        "stop" : 1758027790483,
+        "duration" : 309946
+      }
+    } ]
+  },
+  "8b25fd7bd9ed845d19081ee0799ea118" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5111a8fb2b4cd39",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeSearchField[@visible=\"true\"]",
+      "time" : {
+        "start" : 1758028350444,
+        "stop" : 1758028600956,
+        "duration" : 250512
+      }
+    } ]
+  },
+  "b76a326bd49d768ca63850901cbb024d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5105f4673fc3f69f",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"]",
+      "time" : {
+        "start" : 1758029568918,
+        "stop" : 1758029712920,
+        "duration" : 144002
+      }
+    } ]
+  },
+  "7d315c9d58b3c2fd361133fc95ee854f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa373a8435f99329",
+      "status" : "broken",
+      "statusDetails" : "fullRegistrationCycle() timed out after 5 minutes",
+      "time" : {
+        "start" : 1758042658743,
+        "stop" : 1758045891129,
+        "duration" : 3232386
+      }
+    } ]
+  },
+  "894c7f397b07a6c95533ffa69946e188" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ba84ac7b8b62b7",
+      "status" : "failed",
+      "statusDetails" : "Should not be able to save conclusion with missing required fields",
+      "time" : {
+        "start" : 1758036073423,
+        "stop" : 1758036393002,
+        "duration" : 319579
+      }
+    } ]
+  },
+  "5e94fe62b62986319f169be63613673" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce3daeb978cf8906",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 7ae8c023-239b-4718-ab99-2c4619bc3061",
+      "time" : {
+        "start" : 1758026827726,
+        "stop" : 1758027144774,
+        "duration" : 317048
+      }
+    } ]
+  },
+  "171f22ce60306c9f366a7b5a1d834ae4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f375deb9f5b5301",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //XCUIElementTypeButton[@name=\"Войти\"]",
+      "time" : {
+        "start" : 1758030095804,
+        "stop" : 1758030191811,
+        "duration" : 96007
+      }
+    } ]
+  },
+  "d839064510354c59ad3042a75e06a20e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21b7a2a118382151",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"]",
+      "time" : {
+        "start" : 1758033733599,
+        "stop" : 1758034019114,
+        "duration" : 285515
+      }
+    } ]
+  },
+  "18b983ac3d011f2581b57cffec2c2fc1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab0b426abc4d24ef",
+      "status" : "broken",
+      "statusDetails" : "cancelRegistrationBeforeConsultation() timed out after 5 minutes",
+      "time" : {
+        "start" : 1758041850231,
+        "stop" : 1758042254729,
+        "duration" : 404498
+      }
+    } ]
+  },
+  "e9ea1acc5a05ef13141367b5be0fa5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53efb1af044071ed",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Настройки\"]",
+      "time" : {
+        "start" : 1758032966756,
+        "stop" : 1758033224514,
+        "duration" : 257758
+      }
+    } ]
+  },
   "97960b3265d6a8cb0001717f51777f6b" : {
     "statistic" : {
       "failed" : 0,
@@ -9,12 +448,948 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "739757a72806f5c7",
+      "uid" : "4e0e5cfaeb3e2405",
       "status" : "passed",
       "time" : {
-        "start" : 1751231751962,
-        "stop" : 1751231931426,
-        "duration" : 179464
+        "start" : 1758029070728,
+        "stop" : 1758029276358,
+        "duration" : 205630
+      }
+    } ]
+  },
+  "52cb1388c27fcb104d3bf655780ca1b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78c86469fb2a0f44",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758049057668,
+        "stop" : 1758049273679,
+        "duration" : 216011
+      }
+    } ]
+  },
+  "507f3329bcac06196c711d6214e28910" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f73b4773242440a",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758048129754,
+        "stop" : 1758048129754,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e2e8b3ad51ecb5848fcf75c3ff240125" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43bf86101c7bf1db",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1758035373052,
+        "stop" : 1758035700570,
+        "duration" : 327518
+      }
+    } ]
+  },
+  "8c176700601bd05c1972864a7d482183" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd56fcf2221ebde",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeButton[@name=\"Добавить\"]",
+      "time" : {
+        "start" : 1758027144789,
+        "stop" : 1758027480521,
+        "duration" : 335732
+      }
+    } ]
+  },
+  "fe81c9de9a3b137531503ead196a3e40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd20d03510f989d3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758049712680,
+        "stop" : 1758049857794,
+        "duration" : 145114
+      }
+    } ]
+  },
+  "d851832cd2ceb5f3bbf56aa23bb8576" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6abe6f87541de527",
+      "status" : "broken",
+      "statusDetails" : "checkTimelineDisplay() timed out after 5 minutes",
+      "time" : {
+        "start" : 1758046896732,
+        "stop" : 1758047352626,
+        "duration" : 455894
+      }
+    } ]
+  },
+  "e034c34663abdee9611139e550dd8986" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "385baef2228caa54",
+      "status" : "broken",
+      "statusDetails" : "viewConclusionMT() timed out after 5 minutes",
+      "time" : {
+        "start" : 1758047352678,
+        "stop" : 1758047697695,
+        "duration" : 345017
+      }
+    } ]
+  },
+  "141b5f4ac7ae0c04bfb568209c4e9585" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fada570f1ce8c389",
+      "status" : "broken",
+      "statusDetails" : "addConclusionMT() timed out after 5 minutes",
+      "time" : {
+        "start" : 1758042254757,
+        "stop" : 1758042658718,
+        "duration" : 403961
+      }
+    } ]
+  },
+  "2ebd030ead2202f2de6f1bad7e5cfed6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c947db6420c2538",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031266708,
+        "stop" : 1758031266708,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4781f172fc53ddf6d8b9250d31067a99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d296956b56f3362",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeButton[@name=\"Задать вопрос в чате\"]",
+      "time" : {
+        "start" : 1758034714104,
+        "stop" : 1758034997650,
+        "duration" : 283546
+      }
+    } ]
+  },
+  "560ede97c4c2afdae332f33b4e3d1494" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6726a5ef6629515",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758031757650,
+        "stop" : 1758031757650,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3b75c42caae7b8bda70cb5b50052d65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed3130aba4564b28",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Пройти опрос и записаться онлайн\"]",
+      "time" : {
+        "start" : 1758030712091,
+        "stop" : 1758030989949,
+        "duration" : 277858
+      }
+    } ]
+  },
+  "e0ae6fe56703946367c86442216294b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d61cccbb4c8e5347",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758041519976,
+        "stop" : 1758041850200,
+        "duration" : 330224
+      }
+    } ]
+  },
+  "2898282340b486d23243848ed9820086" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c7a05bc81f7cdc6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758049494762,
+        "stop" : 1758049712658,
+        "duration" : 217896
+      }
+    } ]
+  },
+  "ba6a924fce26128c6ee2510e73e8a21d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e90993cd6f47ea2d",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Тип консультации\"]",
+      "time" : {
+        "start" : 1758031266711,
+        "stop" : 1758031513139,
+        "duration" : 246428
+      }
+    } ]
+  },
+  "f7831b04c8295468701941be18dcd5d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bf936acc991ceae",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: (//XCUIElementTypeStaticText[@name=\"Архив\"])[2]",
+      "time" : {
+        "start" : 1758034019132,
+        "stop" : 1758034423804,
+        "duration" : 404672
+      }
+    } ]
+  },
+  "1861d2113478472056474c95422ed11b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9556147ed0fb287f",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Пройти опрос и записаться онлайн\"]",
+      "time" : {
+        "start" : 1758030989963,
+        "stop" : 1758031266691,
+        "duration" : 276728
+      }
+    } ]
+  },
+  "d69edb2c74d420771efbbb373b3d27e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b809b2b735be9168",
+      "status" : "broken",
+      "statusDetails" : "Failed to verify conclusion was added: Conclusion was not added successfully",
+      "time" : {
+        "start" : 1758046723419,
+        "stop" : 1758046896716,
+        "duration" : 173297
+      }
+    } ]
+  },
+  "66c70b389e0fbbe16e554a89f0fb1684" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42d40bb692c987c6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeButton[@name=\"Добавить анализ\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: ca8f4aab-2bd8-47f3-89d8-d125f9990f79",
+      "time" : {
+        "start" : 1758028866654,
+        "stop" : 1758029068849,
+        "duration" : 202195
+      }
+    } ]
+  },
+  "d0e183c5aea0d02949fbb7f7c8df728f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fe57ca1f1543fbe",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758048129757,
+        "stop" : 1758048129757,
+        "duration" : 0
+      }
+    } ]
+  },
+  "601799a9efc28408ce8bde27845aca08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba6948272bd20628",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758049857808,
+        "stop" : 1758050088359,
+        "duration" : 230551
+      }
+    } ]
+  },
+  "1068dfde36f458b4b76be55e159487e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c597c261feeb1e80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758032582327,
+        "stop" : 1758032966743,
+        "duration" : 384416
+      }
+    } ]
+  },
+  "4d7588b6ca974609f15c061aa465fe80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddc7ba2d147fde48",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1]",
+      "time" : {
+        "start" : 1758032043325,
+        "stop" : 1758032277763,
+        "duration" : 234438
+      }
+    } ]
+  },
+  "784bb5000701054f526ae1e00939cbfd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9e7e5df1fe27b2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758048130928,
+        "stop" : 1758048348504,
+        "duration" : 217576
+      }
+    } ]
+  },
+  "91a94f66aeb0558dc939814d48ff7247" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f50cfe500ffa4dfa",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Пройти опрос и записаться онлайн\"]",
+      "time" : {
+        "start" : 1758031757653,
+        "stop" : 1758032043300,
+        "duration" : 285647
+      }
+    } ]
+  },
+  "d3aba8d75c69c5794c2e179d79f32081" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84f64630eb9f49d1",
+      "status" : "broken",
+      "statusDetails" : "Failed to evaluate condition [org.junit.jupiter.api.condition.DisabledIfCondition]: Could not find method [isIOS] in class [MobileTesting.tests.BuySectionTest]",
+      "time" : {
+        "start" : 1758029714174,
+        "stop" : 1758029714174,
+        "duration" : 0
+      }
+    } ]
+  },
+  "67290ec330cbe4f448f8e0796f878d36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e6aa5e5d7a3fd7",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeSearchField[@visible=\"true\"]",
+      "time" : {
+        "start" : 1758028600964,
+        "stop" : 1758028866639,
+        "duration" : 265675
+      }
+    } ]
+  },
+  "58ae8a85773b95a7b4345b4c9d4a82bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6510f9eae4e066fa",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758048129746,
+        "stop" : 1758048129746,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e5afd0724e8caa80e4cfe53484cc03c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8ad0a1546329317",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758048862320,
+        "stop" : 1758049057646,
+        "duration" : 195326
+      }
+    } ]
+  },
+  "e03e9d43e0d47c51e5c1200eee81632f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11e8157ce17887a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758050088378,
+        "stop" : 1758050306224,
+        "duration" : 217846
+      }
+    } ]
+  },
+  "10c432b313dbf8f39c2d405907abdbdb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c0f109ca1cd6e6a",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //XCUIElementTypeStaticText[contains(@name, \"Запись\")]",
+      "time" : {
+        "start" : 1758029715210,
+        "stop" : 1758029954612,
+        "duration" : 239402
+      }
+    } ]
+  },
+  "b95b1ba966a9308cf4ab6893926523d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51e6c6e4560751da",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Связаться с СОГАЗом\"]",
+      "time" : {
+        "start" : 1758034997796,
+        "stop" : 1758035373010,
+        "duration" : 375214
+      }
+    } ]
+  },
+  "1b75182e7b1e73cf5ae6d416e279d785" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e18164b65ff65666",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Пройти опрос и записаться онлайн\"]",
+      "time" : {
+        "start" : 1758030433002,
+        "stop" : 1758030712078,
+        "duration" : 279076
+      }
+    } ]
+  },
+  "4286382df6cd5e81a6cfd8becf94837c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24bb24aef664e1bb",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал кликабельным за 1 минуту: By.xpath: //XCUIElementTypeButton[@name=\"Нет, спасибо\"]",
+      "time" : {
+        "start" : 1758030191822,
+        "stop" : 1758030341168,
+        "duration" : 149346
+      }
+    } ]
+  },
+  "fc22756d4ffb455bde934fd0a795811d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de9afec47d00563c",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Если Вам нужна срочная помощь психолога\"]",
+      "time" : {
+        "start" : 1758029276432,
+        "stop" : 1758029568897,
+        "duration" : 292465
+      }
+    } ]
+  },
+  "c2cc612905f07f77e2f38a980c3ef85e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d22b8d596a797368",
+      "status" : "broken",
+      "statusDetails" : "checkAddConclusionButton() timed out after 5 minutes",
+      "time" : {
+        "start" : 1758046203586,
+        "stop" : 1758046723362,
+        "duration" : 519776
+      }
+    } ]
+  },
+  "de0069054fb7ac2e92d1df5c33a933f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "689b5010df38386a",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758048129750,
+        "stop" : 1758048129750,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a0d25b93257a21b2f57c0006cc2092bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b0393852fc15a78",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758048129756,
+        "stop" : 1758048129756,
+        "duration" : 0
+      }
+    } ]
+  },
+  "56be4d609e04c4a7d34498ed52ca953b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1c71e1dc3e40fee",
+      "status" : "broken",
+      "statusDetails" : "successfulRegistration() timed out after 5 minutes",
+      "time" : {
+        "start" : 1758036718762,
+        "stop" : 1758041519898,
+        "duration" : 4801136
+      }
+    } ]
+  },
+  "d57ea9efb450c437ffb55e6b3cbb5684" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1048d9d172d30e34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758045891191,
+        "stop" : 1758046203573,
+        "duration" : 312382
+      }
+    } ]
+  },
+  "196479d062f0019fa7abf131175caed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb31c6aaa409e0d2",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"]",
+      "time" : {
+        "start" : 1758034423818,
+        "stop" : 1758034712189,
+        "duration" : 288371
+      }
+    } ]
+  },
+  "3cb01562409746a91b163867edc81753" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33075969b4b469f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758036393096,
+        "stop" : 1758036718731,
+        "duration" : 325635
+      }
+    } ]
+  },
+  "781dd596a177ed31b84c12cd7ae3a5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7113352df409f161",
+      "status" : "broken",
+      "statusDetails" : "editConclusionRemovePartialFiles() timed out after 5 minutes",
+      "time" : {
+        "start" : 1758047697726,
+        "stop" : 1758048127534,
+        "duration" : 429808
+      }
+    } ]
+  },
+  "13f992910106d08d4d88cb71e729d71c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e2d5372b744c533",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() throws java.lang.InterruptedException is @Disabled",
+      "time" : {
+        "start" : 1758048129751,
+        "stop" : 1758048129751,
+        "duration" : 0
+      }
+    } ]
+  },
+  "493f4f9d6566967d28d36f973e930190" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98541af04bd6f1f4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758048348592,
+        "stop" : 1758048642589,
+        "duration" : 293997
+      }
+    } ]
+  },
+  "6c013786e546045f008ddc8f54b14c10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71557fa1d28abacd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeStaticText[@name=\"Телемедицина \"] (tried for 4 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1758049273697,
+        "stop" : 1758049494746,
+        "duration" : 221049
+      }
+    } ]
+  },
+  "68b47b537cfcf9d4ef3daef0137ef71f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1092d0addf7b6f13",
+      "status" : "broken",
+      "statusDetails" : "Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeStaticText[@name=\"Тип консультации\"]",
+      "time" : {
+        "start" : 1758031513151,
+        "stop" : 1758031757633,
+        "duration" : 244482
       }
     } ]
   }

@@ -1,0 +1,978 @@
+{
+  "uid" : "99ef448dc6a4ac76",
+  "name" : "instrumentalDiagnosticsTests()",
+  "fullName" : "MobileTesting.tests.MedcardTest.instrumentalDiagnosticsTests",
+  "historyId" : "26bac62248ca4bd68ebe8c33827f49f7",
+  "time" : {
+    "start" : 1758027480537,
+    "stop" : 1758027790483,
+    "duration" : 309946
+  },
+  "description" : "Добавить, редактировать, удалить инструментальную диагностику",
+  "descriptionHtml" : "<p>Добавить, редактировать, удалить инструментальную диагностику</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat MobileTesting.robots.RobotHelper.waitUntilVisible(RobotHelper.java:54)\n\tat MobileTesting.robots.MedcardRobot.uploadSurveyDocument(MedcardRobot.java:2705)\n\tat MobileTesting.robots.MedcardRobot.addSurvey(MedcardRobot.java:2682)\n\tat MobileTesting.tests.MedcardTest.instrumentalDiagnosticsTests(MedcardTest.java:95)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.SameThreadTimeoutInvocation.proceed(SameThreadTimeoutInvocation.java:45)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Добавить, редактировать, удалить инструментальную диагностику",
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat MobileTesting.robots.RobotHelper.waitUntilVisible(RobotHelper.java:54)\n\tat MobileTesting.robots.MedcardRobot.uploadSurveyDocument(MedcardRobot.java:2705)\n\tat MobileTesting.robots.MedcardRobot.addSurvey(MedcardRobot.java:2682)\n\tat MobileTesting.tests.MedcardTest.instrumentalDiagnosticsTests(MedcardTest.java:95)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.SameThreadTimeoutInvocation.proceed(SameThreadTimeoutInvocation.java:45)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1758027503147,
+        "stop" : 1758027509846,
+        "duration" : 6699
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "A814FD1F65DF848140F64C3455743EC0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Войти в систему",
+      "time" : {
+        "start" : 1758027521724,
+        "stop" : 1758027653895,
+        "duration" : 132171
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Войти в систему",
+        "time" : {
+          "start" : 1758027521726,
+          "stop" : 1758027623293,
+          "duration" : 101567
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить и отправить форму входа",
+          "time" : {
+            "start" : 1758027521726,
+            "stop" : 1758027544478,
+            "duration" : 22752
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ввести email",
+            "time" : {
+              "start" : 1758027529396,
+              "stop" : 1758027530345,
+              "duration" : 949
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur@test.ru"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести пароль",
+            "time" : {
+              "start" : 1758027530346,
+              "stop" : 1758027532199,
+              "duration" : 1853
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Artur@test.ru1101"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Нажать на кнопку входа",
+            "time" : {
+              "start" : 1758027532199,
+              "stop" : 1758027533121,
+              "duration" : 922
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "41ff056cc4815171",
+              "name" : "Заполненная форма входа_mobile_screenshot",
+              "source" : "41ff056cc4815171.png",
+              "type" : "image/png",
+              "size" : 216399
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Подтвердить капчу",
+            "time" : {
+              "start" : 1758027537490,
+              "stop" : 1758027544478,
+              "duration" : 6988
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "9e9b25bc1c0bceb1",
+              "name" : "Visible_By.IosNsPredicate: type == \"XCUIElementTypeTextField\"",
+              "source" : "9e9b25bc1c0bceb1.png",
+              "type" : "image/png",
+              "size" : 455480
+            }, {
+              "uid" : "dbd2cf6b3ca04e6f",
+              "name" : "Капча решена_mobile_screenshot",
+              "source" : "dbd2cf6b3ca04e6f.png",
+              "type" : "image/png",
+              "size" : 515858
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "892462d5db901450",
+            "name" : "Clicked_By.xpath: //XCUIElementTypeButton[@name=\"Войти\"]",
+            "source" : "892462d5db901450.png",
+            "type" : "image/png",
+            "size" : 286462
+          }, {
+            "uid" : "5d369feec09843bb",
+            "name" : "Visible_By.IosNsPredicate: type == \"XCUIElementTypeTextField\"",
+            "source" : "5d369feec09843bb.png",
+            "type" : "image/png",
+            "size" : 277947
+          }, {
+            "uid" : "fa29790a274e81b3",
+            "name" : "Форма входа_mobile_screenshot",
+            "source" : "fa29790a274e81b3.png",
+            "type" : "image/png",
+            "size" : 278150
+          } ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur@test.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur@test.ru1101"
+          } ],
+          "attachmentsCount" : 6,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 4,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести ПИН-код",
+          "time" : {
+            "start" : 1758027544478,
+            "stop" : 1758027592977,
+            "duration" : 48499
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ab68fd8b4f1a2419",
+            "name" : "Visible_By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"]",
+            "source" : "ab68fd8b4f1a2419.png",
+            "type" : "image/png",
+            "size" : 84909
+          }, {
+            "uid" : "b089c0036eec2095",
+            "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+            "source" : "b089c0036eec2095.png",
+            "type" : "image/png",
+            "size" : 84909
+          }, {
+            "uid" : "ce984af1f45893b1",
+            "name" : "Visible_By.xpath: //XCUIElementTypeStaticText[@name=\"Повторите ПИН-код\"]",
+            "source" : "ce984af1f45893b1.png",
+            "type" : "image/png",
+            "size" : 81447
+          }, {
+            "uid" : "5961e791457cbaae",
+            "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+            "source" : "5961e791457cbaae.png",
+            "type" : "image/png",
+            "size" : 81447
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "artur@test.ru"
+        }, {
+          "name" : "password",
+          "value" : "Artur@test.ru1101"
+        } ],
+        "attachmentsCount" : 10,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 6,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "15e705d685612724",
+        "name" : "Авторизация для iOS",
+        "source" : "15e705d685612724.txt",
+        "type" : "text/plain",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 11,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на медицинскую карту",
+      "time" : {
+        "start" : 1758027653900,
+        "stop" : 1758027656676,
+        "duration" : 2776
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "879faaba2f95d302",
+        "name" : "Clicked_By.xpath: //XCUIElementTypeStaticText[contains(@name,\"медкарту\")]",
+        "source" : "879faaba2f95d302.png",
+        "type" : "image/png",
+        "size" : 429944
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить наличие разделов: Заключение врача, Болезни, Анализы и т.д.",
+      "time" : {
+        "start" : 1758027656676,
+        "stop" : 1758027673686,
+        "duration" : 17010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cadae4aa41090b52",
+        "name" : "Скриншот_проверки_разделов_медкарты",
+        "source" : "cadae4aa41090b52.png",
+        "type" : "image/png",
+        "size" : 347488
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть раздел инструментальной диагностики",
+      "time" : {
+        "start" : 1758027673687,
+        "stop" : 1758027676126,
+        "duration" : 2439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab8c32fcc0b312bf",
+        "name" : "Раздел_инструментальной_диагностики_открыт",
+        "source" : "ab8c32fcc0b312bf.png",
+        "type" : "image/png",
+        "size" : 93127
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Закрыть экраны при добавлении обследования",
+      "time" : {
+        "start" : 1758027676127,
+        "stop" : 1758027699993,
+        "duration" : 23866
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть экран добавления обследования",
+        "time" : {
+          "start" : 1758027676127,
+          "stop" : 1758027680925,
+          "duration" : 4798
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "31d773f3bb89a7f1",
+          "name" : "Экран_добавления_обследования_открыт",
+          "source" : "31d773f3bb89a7f1.png",
+          "type" : "image/png",
+          "size" : 221636
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Закрыть экран и подтвердить выход",
+        "time" : {
+          "start" : 1758027680926,
+          "stop" : 1758027684118,
+          "duration" : 3192
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "32a2019e026deb70",
+          "name" : "Экран_закрыт_и_выход_подтвержден_обследование",
+          "source" : "32a2019e026deb70.png",
+          "type" : "image/png",
+          "size" : 218288
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Повторное открытие экрана обследования и закрытие",
+        "time" : {
+          "start" : 1758027684118,
+          "stop" : 1758027695501,
+          "duration" : 11383
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Заполнить поле даты",
+          "time" : {
+            "start" : 1758027685038,
+            "stop" : 1758027694363,
+            "duration" : 9325
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Создание карты дат",
+            "time" : {
+              "start" : 1758027685038,
+              "stop" : 1758027685041,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Получить дату в формате dd.MM.yyyy",
+              "time" : {
+                "start" : 1758027685040,
+                "stop" : 1758027685040,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "modifiedDate",
+                "value" : "Mon Sep 15 16:01:25 MSK 2025"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Получить дату в формате dd MMM yyyy",
+              "time" : {
+                "start" : 1758027685040,
+                "stop" : 1758027685040,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "modifiedDate",
+                "value" : "Mon Sep 15 16:01:25 MSK 2025"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+              "time" : {
+                "start" : 1758027685040,
+                "stop" : 1758027685041,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "modifiedDate",
+                "value" : "Mon Sep 15 16:01:25 MSK 2025"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Получить дату в формате dd MMM yyyy (русский)",
+              "time" : {
+                "start" : 1758027685041,
+                "stop" : 1758027685041,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "modifiedDate",
+                "value" : "Mon Sep 15 16:01:25 MSK 2025"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            }, {
+              "name" : "Получить дату с сокращённым месяцем (русский)",
+              "time" : {
+                "start" : 1758027685041,
+                "stop" : 1758027685041,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "ddMMMMyyyyRussian",
+                "value" : "15 сентября 2025"
+              } ],
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 0,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "daysToSubtract",
+              "value" : "1"
+            }, {
+              "name" : "monthsToSubtract",
+              "value" : "0"
+            }, {
+              "name" : "yearsToSubtract",
+              "value" : "0"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 5,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "9d3d5c4d68ed237d",
+            "name" : "Visible_By.xpath: (//XCUIElementTypeTextField)[last()]",
+            "source" : "9d3d5c4d68ed237d.png",
+            "type" : "image/png",
+            "size" : 221636
+          }, {
+            "uid" : "582bafc2218fc90d",
+            "name" : "Скриншот_после_заполнения_даты",
+            "source" : "582bafc2218fc90d.png",
+            "type" : "image/png",
+            "size" : 218098
+          } ],
+          "parameters" : [ {
+            "name" : "daysToSubtract",
+            "value" : "1"
+          }, {
+            "name" : "monthsToSubtract",
+            "value" : "0"
+          }, {
+            "name" : "yearsToSubtract",
+            "value" : "0"
+          } ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 6,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "efca6767a1a7bc02",
+          "name" : "Повторное_открытие_и_закрытие_экрана_обследования",
+          "source" : "efca6767a1a7bc02.png",
+          "type" : "image/png",
+          "size" : 218098
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 7,
+        "hasContent" : true
+      }, {
+        "name" : "Закрыть экран и подтвердить выход",
+        "time" : {
+          "start" : 1758027695502,
+          "stop" : 1758027698811,
+          "duration" : 3309
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "60bae3cbdf5bb6ec",
+          "name" : "Экран_закрыт_и_выход_подтвержден_обследование",
+          "source" : "60bae3cbdf5bb6ec.png",
+          "type" : "image/png",
+          "size" : 219736
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "119a9cfb691aca4e",
+        "name" : "Экраны_при_добавлении_обследования_закрыты",
+        "source" : "119a9cfb691aca4e.png",
+        "type" : "image/png",
+        "size" : 219736
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 11,
+      "hasContent" : true
+    }, {
+      "name" : "Добавить обследование",
+      "time" : {
+        "start" : 1758027699994,
+        "stop" : 1758027789198,
+        "duration" : 89204
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat MobileTesting.robots.RobotHelper.waitUntilVisible(RobotHelper.java:54)\n\tat MobileTesting.robots.MedcardRobot.uploadSurveyDocument(MedcardRobot.java:2705)\n\tat MobileTesting.robots.MedcardRobot.addSurvey(MedcardRobot.java:2682)\n\tat MobileTesting.tests.MedcardTest.instrumentalDiagnosticsTests(MedcardTest.java:95)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.SameThreadTimeoutInvocation.proceed(SameThreadTimeoutInvocation.java:45)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+      "steps" : [ {
+        "name" : "Создание карты дат",
+        "time" : {
+          "start" : 1758027699994,
+          "stop" : 1758027699995,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Получить дату в формате dd.MM.yyyy",
+          "time" : {
+            "start" : 1758027699994,
+            "stop" : 1758027699994,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "modifiedDate",
+            "value" : "Mon Sep 15 16:01:39 MSK 2025"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получить дату в формате dd MMM yyyy",
+          "time" : {
+            "start" : 1758027699994,
+            "stop" : 1758027699995,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "modifiedDate",
+            "value" : "Mon Sep 15 16:01:39 MSK 2025"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+          "time" : {
+            "start" : 1758027699995,
+            "stop" : 1758027699995,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "modifiedDate",
+            "value" : "Mon Sep 15 16:01:39 MSK 2025"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получить дату в формате dd MMM yyyy (русский)",
+          "time" : {
+            "start" : 1758027699995,
+            "stop" : 1758027699995,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "modifiedDate",
+            "value" : "Mon Sep 15 16:01:39 MSK 2025"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Получить дату с сокращённым месяцем (русский)",
+          "time" : {
+            "start" : 1758027699995,
+            "stop" : 1758027699995,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "ddMMMMyyyyRussian",
+            "value" : "15 сентября 2025"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "daysToSubtract",
+          "value" : "1"
+        }, {
+          "name" : "monthsToSubtract",
+          "value" : "0"
+        }, {
+          "name" : "yearsToSubtract",
+          "value" : "0"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 5,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть экран добавления обследования",
+        "time" : {
+          "start" : 1758027699995,
+          "stop" : 1758027702135,
+          "duration" : 2140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "23d351042150f43",
+          "name" : "Экран_добавления_обследования_открыт",
+          "source" : "23d351042150f43.png",
+          "type" : "image/png",
+          "size" : 221636
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле даты",
+        "time" : {
+          "start" : 1758027702136,
+          "stop" : 1758027711084,
+          "duration" : 8948
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Создание карты дат",
+          "time" : {
+            "start" : 1758027702136,
+            "stop" : 1758027702138,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Получить дату в формате dd.MM.yyyy",
+            "time" : {
+              "start" : 1758027702136,
+              "stop" : 1758027702136,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "modifiedDate",
+              "value" : "Mon Sep 15 16:01:42 MSK 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить дату в формате dd MMM yyyy",
+            "time" : {
+              "start" : 1758027702136,
+              "stop" : 1758027702137,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "modifiedDate",
+              "value" : "Mon Sep 15 16:01:42 MSK 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить дату в формате dd MMMM yyyy (русский)",
+            "time" : {
+              "start" : 1758027702137,
+              "stop" : 1758027702137,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "modifiedDate",
+              "value" : "Mon Sep 15 16:01:42 MSK 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить дату в формате dd MMM yyyy (русский)",
+            "time" : {
+              "start" : 1758027702137,
+              "stop" : 1758027702138,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "modifiedDate",
+              "value" : "Mon Sep 15 16:01:42 MSK 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Получить дату с сокращённым месяцем (русский)",
+            "time" : {
+              "start" : 1758027702138,
+              "stop" : 1758027702138,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "ddMMMMyyyyRussian",
+              "value" : "15 сентября 2025"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "daysToSubtract",
+            "value" : "1"
+          }, {
+            "name" : "monthsToSubtract",
+            "value" : "0"
+          }, {
+            "name" : "yearsToSubtract",
+            "value" : "0"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 5,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "629e7d39566cf77a",
+          "name" : "Visible_By.xpath: (//XCUIElementTypeTextField)[last()]",
+          "source" : "629e7d39566cf77a.png",
+          "type" : "image/png",
+          "size" : 221636
+        }, {
+          "uid" : "44425471b4e35d08",
+          "name" : "Скриншот_после_заполнения_даты",
+          "source" : "44425471b4e35d08.png",
+          "type" : "image/png",
+          "size" : 218098
+        } ],
+        "parameters" : [ {
+          "name" : "daysToSubtract",
+          "value" : "1"
+        }, {
+          "name" : "monthsToSubtract",
+          "value" : "0"
+        }, {
+          "name" : "yearsToSubtract",
+          "value" : "0"
+        } ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 6,
+        "hasContent" : true
+      }, {
+        "name" : "Загрузить документ обследования",
+        "time" : {
+          "start" : 1758027711085,
+          "stop" : 1758027789198,
+          "duration" : 78113
+        },
+        "status" : "broken",
+        "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09",
+        "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Далее\"] (tried for 4 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:1c83:fe13:ceef:b61f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '23.0.2'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: false, automationName: XCUITest, browserName: , connectHardwareKeyboard: false, databaseEnabled: false, derivedDataPath: /tmp/wda, deviceName: iPhone 15 Pro, forceAppLaunch: true, fullReset: false, javascriptEnabled: true, launchTimeout: 60000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 60, noReset: false, platform: MAC, platformName: iOS, platformVersion: 17.5, resetOnSessionStartOnly: true, shouldTerminateApp: true, takesScreenshot: true, udid: 2019FE35-CDF4-42D1-ADD5-FF2..., useNewWDA: true, useSimpleBuildTest: true, webDriverAgentLaunchTimeout: 60000, webDriverAgentSessionTimeout: 60000, webStorageEnabled: false}\nSession ID: 97b996b7-8710-4070-aa1e-9c5930289d09\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat MobileTesting.robots.RobotHelper.waitUntilVisible(RobotHelper.java:54)\n\tat MobileTesting.robots.MedcardRobot.uploadSurveyDocument(MedcardRobot.java:2705)\n\tat MobileTesting.robots.MedcardRobot.addSurvey(MedcardRobot.java:2682)\n\tat MobileTesting.tests.MedcardTest.instrumentalDiagnosticsTests(MedcardTest.java:95)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.SameThreadTimeoutInvocation.proceed(SameThreadTimeoutInvocation.java:45)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+        "steps" : [ {
+          "name" : "Добавление файла 1 раз",
+          "time" : {
+            "start" : 1758027711085,
+            "stop" : 1758027784285,
+            "duration" : 73200
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "598d6196abfa0a8c",
+            "name" : "Visible_By.xpath: //XCUIElementTypeImage[@name=\"addFileIcon\"]",
+            "source" : "598d6196abfa0a8c.png",
+            "type" : "image/png",
+            "size" : 218098
+          }, {
+            "uid" : "32031e4abe5316ec",
+            "name" : "Visible_By.id: Документы",
+            "source" : "32031e4abe5316ec.png",
+            "type" : "image/png",
+            "size" : 395521
+          }, {
+            "uid" : "f1b099ecb90fec5d",
+            "name" : "Timeout_smartWait_Visible_By.xpath: //XCUIElementTypeStaticText[contains(@name, \"IMG_\") or contains(@name, \"Photo\") or contains(@name, \"Image\")]",
+            "source" : "f1b099ecb90fec5d.png",
+            "type" : "image/png",
+            "size" : 109250
+          }, {
+            "uid" : "981de5d56198844",
+            "name" : "Файл_не_найден_пропуск_добавления_1",
+            "source" : "981de5d56198844.png",
+            "type" : "image/png",
+            "size" : 109250
+          } ],
+          "parameters" : [ {
+            "name" : "repeatTime",
+            "value" : "1"
+          } ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 16,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 28,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 41,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "20004@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "instrumentalDiagnosticsTests"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.MedcardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "99ef448dc6a4ac76.json",
+  "parameterValues" : [ ]
+}

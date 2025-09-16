@@ -1,0 +1,1 @@
+Не удалось найти или выбрать операцию. Ошибка: Элемент не стал видимым за 1 минуту: By.xpath: //XCUIElementTypeSearchField[@visible="true"]

@@ -1,0 +1,59 @@
+{
+  "uid" : "8c947db6420c2538",
+  "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+  "fullName" : "MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline",
+  "historyId" : "2ebd030ead2202f2de6f1bad7e5cfed6",
+  "time" : {
+    "start" : 1758031266708,
+    "stop" : 1758031266708,
+    "duration" : 0
+  },
+  "description" : "Проверка, что опросник не открывается для пациентов-детей при регистрации в клиники",
+  "descriptionHtml" : "<p>Проверка, что опросник не открывается для пациентов-детей при регистрации в клиники</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "27662@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "questionnaireDoesNotOpenForChildPatientOffline"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c947db6420c2538.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,375 @@
+{
+  "uid" : "33075969b4b469f2",
+  "name" : "editConclusionRemoveOptionalFields()",
+  "fullName" : "MobileTesting.tests.ElregTest.editConclusionRemoveOptionalFields",
+  "historyId" : "3cb01562409746a91b163867edc81753",
+  "time" : {
+    "start" : 1758036393096,
+    "stop" : 1758036718731,
+    "duration" : 325635
+  },
+  "description" : "Редактирование заключения - удаление необязательных полей",
+  "descriptionHtml" : "<p>Редактирование заключения - удаление необязательных полей</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Редактирование заключения - удаление необязательных полей",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Handle Stage Access Token dialog",
+      "time" : {
+        "start" : 1758036415195,
+        "stop" : 1758036421806,
+        "duration" : 6611
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "A814FD1F65DF848140F64C3455743EC0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Войти в систему",
+      "time" : {
+        "start" : 1758036433557,
+        "stop" : 1758036584749,
+        "duration" : 151192
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнить и отправить форму входа",
+        "time" : {
+          "start" : 1758036433558,
+          "stop" : 1758036456262,
+          "duration" : 22704
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести email",
+          "time" : {
+            "start" : 1758036441090,
+            "stop" : 1758036442169,
+            "duration" : 1079
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "Pavel.mordasov@overteam.ru"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Ввести пароль",
+          "time" : {
+            "start" : 1758036442169,
+            "stop" : 1758036444137,
+            "duration" : 1968
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "password",
+            "value" : "Pavel.mordasov@overteam.ru1102"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать на кнопку входа",
+          "time" : {
+            "start" : 1758036444138,
+            "stop" : 1758036444977,
+            "duration" : 839
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2b699561a1445379",
+            "name" : "Заполненная форма входа_mobile_screenshot",
+            "source" : "2b699561a1445379.png",
+            "type" : "image/png",
+            "size" : 219637
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Подтвердить капчу",
+          "time" : {
+            "start" : 1758036449549,
+            "stop" : 1758036456262,
+            "duration" : 6713
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2f9535b1551345c5",
+            "name" : "Visible_By.IosNsPredicate: type == \"XCUIElementTypeTextField\"",
+            "source" : "2f9535b1551345c5.png",
+            "type" : "image/png",
+            "size" : 433235
+          }, {
+            "uid" : "dc1ada99d8368afc",
+            "name" : "Капча решена_mobile_screenshot",
+            "source" : "dc1ada99d8368afc.png",
+            "type" : "image/png",
+            "size" : 495479
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "1c0ae870f385d050",
+          "name" : "Clicked_By.xpath: //XCUIElementTypeButton[@name=\"Войти\"]",
+          "source" : "1c0ae870f385d050.png",
+          "type" : "image/png",
+          "size" : 281285
+        }, {
+          "uid" : "b2f5183caa5c24fc",
+          "name" : "Visible_By.IosNsPredicate: type == \"XCUIElementTypeTextField\"",
+          "source" : "b2f5183caa5c24fc.png",
+          "type" : "image/png",
+          "size" : 281286
+        }, {
+          "uid" : "5ef4650b06bcd9ce",
+          "name" : "Форма входа_mobile_screenshot",
+          "source" : "5ef4650b06bcd9ce.png",
+          "type" : "image/png",
+          "size" : 281286
+        } ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "Pavel.mordasov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Pavel.mordasov@overteam.ru1102"
+        } ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "Ввести ПИН-код",
+        "time" : {
+          "start" : 1758036456263,
+          "stop" : 1758036554305,
+          "duration" : 98042
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "46838eb8af35efb1",
+          "name" : "Visible_By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"]",
+          "source" : "46838eb8af35efb1.png",
+          "type" : "image/png",
+          "size" : 85403
+        }, {
+          "uid" : "9c44bf4ac49536b4",
+          "name" : "Экран ввода ПИН-кода_mobile_screenshot",
+          "source" : "9c44bf4ac49536b4.png",
+          "type" : "image/png",
+          "size" : 85403
+        }, {
+          "uid" : "bccbde807c6d8cc5",
+          "name" : "Visible_By.xpath: //XCUIElementTypeStaticText[@name=\"Повторите ПИН-код\"]",
+          "source" : "bccbde807c6d8cc5.png",
+          "type" : "image/png",
+          "size" : 81932
+        }, {
+          "uid" : "17870980034ee300",
+          "name" : "Подтверждение ПИН-кода_mobile_screenshot",
+          "source" : "17870980034ee300.png",
+          "type" : "image/png",
+          "size" : 81932
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "Pavel.mordasov@overteam.ru"
+      }, {
+        "name" : "password",
+        "value" : "Pavel.mordasov@overteam.ru1102"
+      } ],
+      "attachmentsCount" : 10,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "Handle blue screen if present",
+      "time" : {
+        "start" : 1758036584751,
+        "stop" : 1758036594878,
+        "duration" : 10127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Редактирование заключения - удаление необязательных данных",
+      "time" : {
+        "start" : 1758036620793,
+        "stop" : 1758036704875,
+        "duration" : 84082
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Редактирование заключения - удаление необязательных полей",
+        "time" : {
+          "start" : 1758036620793,
+          "stop" : 1758036704875,
+          "duration" : 84082
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Навигация к вкладке Здоровье",
+          "time" : {
+            "start" : 1758036620794,
+            "stop" : 1758036693550,
+            "duration" : 72756
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "69bff5eb4cda79fd",
+            "name" : "Visible_By.xpath: //XCUIElementTypeButton[@name=\"Здоровье\"]",
+            "source" : "69bff5eb4cda79fd.png",
+            "type" : "image/png",
+            "size" : 427962
+          }, {
+            "uid" : "904ef7784d7485c9",
+            "name" : "After_Health_Tab_Click_iOS",
+            "source" : "904ef7784d7485c9.png",
+            "type" : "image/png",
+            "size" : 427216
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "1e4aa516ec1f4f10",
+          "name" : "Edit_Conclusion_Button_Not_Found",
+          "source" : "1e4aa516ec1f4f10.png",
+          "type" : "image/png",
+          "size" : 427216
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка успешного сохранения заключения",
+      "time" : {
+        "start" : 1758036704876,
+        "stop" : 1758036716125,
+        "duration" : 11249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7efcc40780f23d76",
+        "name" : "Conclusion_Save_Confirmation",
+        "source" : "7efcc40780f23d76.png",
+        "type" : "image/png",
+        "size" : 427216
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7d8be0cb222c4efa",
+      "name" : "conclusion_edit_optional_fields",
+      "source" : "7d8be0cb222c4efa.png",
+      "type" : "image/png",
+      "size" : 427216
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "41740@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "editConclusionRemoveOptionalFields"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.ElregTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33075969b4b469f2.json",
+  "parameterValues" : [ ]
+}
